@@ -1,0 +1,14 @@
+[
+  {
+    "source": "ir",
+    "rows": 3,
+    "passed": true,
+    "max_prediction_difference": 0.0
+  },
+  {
+    "source": "raman",
+    "rows": 3,
+    "passed": true,
+    "max_prediction_difference": 0.0
+  }
+]

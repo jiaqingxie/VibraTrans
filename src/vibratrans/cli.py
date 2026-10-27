@@ -18,8 +18,10 @@ def selected_task(config, name):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="VibraDiT: one-step IR–Raman translation")
+    parser = argparse.ArgumentParser(description="VibraTrans: one-step IR–Raman translation")
     sub = parser.add_subparsers(dest="command", required=True)
+    p = sub.add_parser("demo", help="Offline CPU training, inference and evaluation example")
+    p.add_argument("--output-dir", type=Path, required=True)
     for command in ("list-tasks", "train", "evaluate", "verify-data"):
         p = sub.add_parser(command)
         p.add_argument("--task-config", default="configs/paper_tasks.json")
@@ -45,6 +47,11 @@ def main():
     p.add_argument("--device", default="cpu")
     p.add_argument("--batch-size", type=int, default=192)
     args = parser.parse_args()
+    if args.command == "demo":
+        from .demo import run_demo
+
+        run_demo(args.output_dir)
+        return
     if args.command == "list-tasks":
         for name in json.loads(Path(args.task_config).read_text()):
             print(name)

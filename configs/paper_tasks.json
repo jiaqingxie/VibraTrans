@@ -1,5 +1,5 @@
 {
-  "qm9s_vibradit_ir_seed0": {
+  "qm9s_vibratrans_ir_seed0": {
     "source": "ir",
     "seed": 0,
     "epochs": 100,
@@ -21,7 +21,7 @@
       "mae": 0.0040851537534335024,
       "r2": 0.943421851116532
     },
-    "name": "qm9s_vibradit_ir_seed0",
+    "name": "qm9s_vibratrans_ir_seed0",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -38,7 +38,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qm9s_vibradit_raman_seed0": {
+  "qm9s_vibratrans_raman_seed0": {
     "source": "raman",
     "seed": 0,
     "epochs": 100,
@@ -60,7 +60,7 @@
       "mae": 0.011128411139605637,
       "r2": 0.8389148508235059
     },
-    "name": "qm9s_vibradit_raman_seed0",
+    "name": "qm9s_vibratrans_raman_seed0",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -233,7 +233,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qm9s_vibradit_ir_seed1": {
+  "qm9s_vibratrans_ir_seed1": {
     "source": "ir",
     "seed": 1,
     "epochs": 100,
@@ -255,7 +255,7 @@
       "mae": 0.0040851537534335024,
       "r2": 0.943421851116532
     },
-    "name": "qm9s_vibradit_ir_seed1",
+    "name": "qm9s_vibratrans_ir_seed1",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -272,7 +272,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qm9s_vibradit_raman_seed1": {
+  "qm9s_vibratrans_raman_seed1": {
     "source": "raman",
     "seed": 1,
     "epochs": 100,
@@ -294,7 +294,7 @@
       "mae": 0.011128411139605637,
       "r2": 0.8389148508235059
     },
-    "name": "qm9s_vibradit_raman_seed1",
+    "name": "qm9s_vibratrans_raman_seed1",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -467,7 +467,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qm9s_vibradit_ir_seed2": {
+  "qm9s_vibratrans_ir_seed2": {
     "source": "ir",
     "seed": 2,
     "epochs": 100,
@@ -489,7 +489,7 @@
       "mae": 0.0040851537534335024,
       "r2": 0.943421851116532
     },
-    "name": "qm9s_vibradit_ir_seed2",
+    "name": "qm9s_vibratrans_ir_seed2",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -506,7 +506,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qm9s_vibradit_raman_seed2": {
+  "qm9s_vibratrans_raman_seed2": {
     "source": "raman",
     "seed": 2,
     "epochs": 100,
@@ -528,7 +528,7 @@
       "mae": 0.011128411139605637,
       "r2": 0.8389148508235059
     },
-    "name": "qm9s_vibradit_raman_seed2",
+    "name": "qm9s_vibratrans_raman_seed2",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -701,7 +701,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qm9s_vibradit_ir_seed3": {
+  "qm9s_vibratrans_ir_seed3": {
     "source": "ir",
     "seed": 3,
     "epochs": 100,
@@ -723,7 +723,7 @@
       "mae": 0.0040851537534335024,
       "r2": 0.943421851116532
     },
-    "name": "qm9s_vibradit_ir_seed3",
+    "name": "qm9s_vibratrans_ir_seed3",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -740,7 +740,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qm9s_vibradit_raman_seed3": {
+  "qm9s_vibratrans_raman_seed3": {
     "source": "raman",
     "seed": 3,
     "epochs": 100,
@@ -762,7 +762,7 @@
       "mae": 0.011128411139605637,
       "r2": 0.8389148508235059
     },
-    "name": "qm9s_vibradit_raman_seed3",
+    "name": "qm9s_vibratrans_raman_seed3",
     "dataset": "qm9s",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s.npz",
@@ -935,7 +935,7 @@
       "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
     }
   },
-  "qme14s_vibradit_ir_seed0": {
+  "qme14s_vibratrans_ir_seed0": {
     "source": "ir",
     "seed": 0,
     "epochs": 100,
@@ -957,7 +957,7 @@
       "mae": 0.007303128147072765,
       "r2": 0.8686980369235102
     },
-    "name": "qme14s_vibradit_ir_seed0",
+    "name": "qme14s_vibratrans_ir_seed0",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -974,7 +974,7 @@
       "length": 3500
     }
   },
-  "qme14s_vibradit_raman_seed0": {
+  "qme14s_vibratrans_raman_seed0": {
     "source": "raman",
     "seed": 0,
     "epochs": 100,
@@ -996,7 +996,7 @@
       "mae": 0.011489772413532709,
       "r2": 0.7753592395695564
     },
-    "name": "qme14s_vibradit_raman_seed0",
+    "name": "qme14s_vibratrans_raman_seed0",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -1169,7 +1169,7 @@
       "length": 3500
     }
   },
-  "vibench_full_vibradit_ir_seed0": {
+  "vibench_full_vibratrans_ir_seed0": {
     "source": "ir",
     "seed": 0,
     "epochs": 100,
@@ -1191,7 +1191,7 @@
       "mae": 0.013770202967223576,
       "r2": 0.7812454172097726
     },
-    "name": "vibench_full_vibradit_ir_seed0",
+    "name": "vibench_full_vibratrans_ir_seed0",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -1208,7 +1208,7 @@
       "length": 1024
     }
   },
-  "vibench_full_vibradit_raman_seed0": {
+  "vibench_full_vibratrans_raman_seed0": {
     "source": "raman",
     "seed": 0,
     "epochs": 100,
@@ -1230,7 +1230,7 @@
       "mae": 0.014713580066215115,
       "r2": 0.6680623614149049
     },
-    "name": "vibench_full_vibradit_raman_seed0",
+    "name": "vibench_full_vibratrans_raman_seed0",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -1403,7 +1403,7 @@
       "length": 1024
     }
   },
-  "qme14s_vibradit_ir_seed1": {
+  "qme14s_vibratrans_ir_seed1": {
     "source": "ir",
     "seed": 1,
     "epochs": 100,
@@ -1425,7 +1425,7 @@
       "mae": 0.007303128147072765,
       "r2": 0.8686980369235102
     },
-    "name": "qme14s_vibradit_ir_seed1",
+    "name": "qme14s_vibratrans_ir_seed1",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -1442,7 +1442,7 @@
       "length": 3500
     }
   },
-  "qme14s_vibradit_raman_seed1": {
+  "qme14s_vibratrans_raman_seed1": {
     "source": "raman",
     "seed": 1,
     "epochs": 100,
@@ -1464,7 +1464,7 @@
       "mae": 0.011489772413532709,
       "r2": 0.7753592395695564
     },
-    "name": "qme14s_vibradit_raman_seed1",
+    "name": "qme14s_vibratrans_raman_seed1",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -1637,7 +1637,7 @@
       "length": 3500
     }
   },
-  "vibench_full_vibradit_ir_seed1": {
+  "vibench_full_vibratrans_ir_seed1": {
     "source": "ir",
     "seed": 1,
     "epochs": 100,
@@ -1659,7 +1659,7 @@
       "mae": 0.013770202967223576,
       "r2": 0.7812454172097726
     },
-    "name": "vibench_full_vibradit_ir_seed1",
+    "name": "vibench_full_vibratrans_ir_seed1",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -1676,7 +1676,7 @@
       "length": 1024
     }
   },
-  "vibench_full_vibradit_raman_seed1": {
+  "vibench_full_vibratrans_raman_seed1": {
     "source": "raman",
     "seed": 1,
     "epochs": 100,
@@ -1698,7 +1698,7 @@
       "mae": 0.014713580066215115,
       "r2": 0.6680623614149049
     },
-    "name": "vibench_full_vibradit_raman_seed1",
+    "name": "vibench_full_vibratrans_raman_seed1",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -1871,7 +1871,7 @@
       "length": 1024
     }
   },
-  "qme14s_vibradit_ir_seed2": {
+  "qme14s_vibratrans_ir_seed2": {
     "source": "ir",
     "seed": 2,
     "epochs": 100,
@@ -1893,7 +1893,7 @@
       "mae": 0.007303128147072765,
       "r2": 0.8686980369235102
     },
-    "name": "qme14s_vibradit_ir_seed2",
+    "name": "qme14s_vibratrans_ir_seed2",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -1910,7 +1910,7 @@
       "length": 3500
     }
   },
-  "qme14s_vibradit_raman_seed2": {
+  "qme14s_vibratrans_raman_seed2": {
     "source": "raman",
     "seed": 2,
     "epochs": 100,
@@ -1932,7 +1932,7 @@
       "mae": 0.011489772413532709,
       "r2": 0.7753592395695564
     },
-    "name": "qme14s_vibradit_raman_seed2",
+    "name": "qme14s_vibratrans_raman_seed2",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -2105,7 +2105,7 @@
       "length": 3500
     }
   },
-  "vibench_full_vibradit_ir_seed2": {
+  "vibench_full_vibratrans_ir_seed2": {
     "source": "ir",
     "seed": 2,
     "epochs": 100,
@@ -2127,7 +2127,7 @@
       "mae": 0.013770202967223576,
       "r2": 0.7812454172097726
     },
-    "name": "vibench_full_vibradit_ir_seed2",
+    "name": "vibench_full_vibratrans_ir_seed2",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -2144,7 +2144,7 @@
       "length": 1024
     }
   },
-  "vibench_full_vibradit_raman_seed2": {
+  "vibench_full_vibratrans_raman_seed2": {
     "source": "raman",
     "seed": 2,
     "epochs": 100,
@@ -2166,7 +2166,7 @@
       "mae": 0.014713580066215115,
       "r2": 0.6680623614149049
     },
-    "name": "vibench_full_vibradit_raman_seed2",
+    "name": "vibench_full_vibratrans_raman_seed2",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -2339,7 +2339,7 @@
       "length": 1024
     }
   },
-  "qme14s_vibradit_ir_seed3": {
+  "qme14s_vibratrans_ir_seed3": {
     "source": "ir",
     "seed": 3,
     "epochs": 100,
@@ -2361,7 +2361,7 @@
       "mae": 0.007303128147072765,
       "r2": 0.8686980369235102
     },
-    "name": "qme14s_vibradit_ir_seed3",
+    "name": "qme14s_vibratrans_ir_seed3",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -2378,7 +2378,7 @@
       "length": 3500
     }
   },
-  "qme14s_vibradit_raman_seed3": {
+  "qme14s_vibratrans_raman_seed3": {
     "source": "raman",
     "seed": 3,
     "epochs": 100,
@@ -2400,7 +2400,7 @@
       "mae": 0.011489772413532709,
       "r2": 0.7753592395695564
     },
-    "name": "qme14s_vibradit_raman_seed3",
+    "name": "qme14s_vibratrans_raman_seed3",
     "dataset": "qme14s",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s.npz",
@@ -2573,7 +2573,7 @@
       "length": 3500
     }
   },
-  "vibench_full_vibradit_ir_seed3": {
+  "vibench_full_vibratrans_ir_seed3": {
     "source": "ir",
     "seed": 3,
     "epochs": 100,
@@ -2595,7 +2595,7 @@
       "mae": 0.013770202967223576,
       "r2": 0.7812454172097726
     },
-    "name": "vibench_full_vibradit_ir_seed3",
+    "name": "vibench_full_vibratrans_ir_seed3",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -2612,7 +2612,7 @@
       "length": 1024
     }
   },
-  "vibench_full_vibradit_raman_seed3": {
+  "vibench_full_vibratrans_raman_seed3": {
     "source": "raman",
     "seed": 3,
     "epochs": 100,
@@ -2634,7 +2634,7 @@
       "mae": 0.014713580066215115,
       "r2": 0.6680623614149049
     },
-    "name": "vibench_full_vibradit_raman_seed3",
+    "name": "vibench_full_vibratrans_raman_seed3",
     "dataset": "vibench_full",
     "data_directory": "vibench_full",
     "split_file": "configs/splits/vibench_full.npz",
@@ -2807,7 +2807,7 @@
       "length": 1024
     }
   },
-  "qm9s_scaffold_vibradit_ir_seed0": {
+  "qm9s_scaffold_vibratrans_ir_seed0": {
     "source": "ir",
     "seed": 0,
     "epochs": 100,
@@ -2829,7 +2829,7 @@
       "mae": 0.004361363867779049,
       "r2": 0.9350273434528172
     },
-    "name": "qm9s_scaffold_vibradit_ir_seed0",
+    "name": "qm9s_scaffold_vibratrans_ir_seed0",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -2846,7 +2846,7 @@
       "length": 3501
     }
   },
-  "qm9s_scaffold_vibradit_raman_seed0": {
+  "qm9s_scaffold_vibratrans_raman_seed0": {
     "source": "raman",
     "seed": 0,
     "epochs": 100,
@@ -2868,7 +2868,7 @@
       "mae": 0.012600765683685703,
       "r2": 0.8005574689226835
     },
-    "name": "qm9s_scaffold_vibradit_raman_seed0",
+    "name": "qm9s_scaffold_vibratrans_raman_seed0",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -3041,7 +3041,7 @@
       "length": 3501
     }
   },
-  "qme14s_scaffold_vibradit_ir_seed0": {
+  "qme14s_scaffold_vibratrans_ir_seed0": {
     "source": "ir",
     "seed": 0,
     "epochs": 100,
@@ -3063,7 +3063,7 @@
       "mae": 0.007453803434952775,
       "r2": 0.8505866054605691
     },
-    "name": "qme14s_scaffold_vibradit_ir_seed0",
+    "name": "qme14s_scaffold_vibratrans_ir_seed0",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -3080,7 +3080,7 @@
       "length": 3500
     }
   },
-  "qme14s_scaffold_vibradit_raman_seed0": {
+  "qme14s_scaffold_vibratrans_raman_seed0": {
     "source": "raman",
     "seed": 0,
     "epochs": 100,
@@ -3102,7 +3102,7 @@
       "mae": 0.01226530416728597,
       "r2": 0.7221639031834891
     },
-    "name": "qme14s_scaffold_vibradit_raman_seed0",
+    "name": "qme14s_scaffold_vibratrans_raman_seed0",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -3275,7 +3275,7 @@
       "length": 3500
     }
   },
-  "qm9s_scaffold_vibradit_ir_seed1": {
+  "qm9s_scaffold_vibratrans_ir_seed1": {
     "source": "ir",
     "seed": 1,
     "epochs": 100,
@@ -3297,7 +3297,7 @@
       "mae": 0.004361363867779049,
       "r2": 0.9350273434528172
     },
-    "name": "qm9s_scaffold_vibradit_ir_seed1",
+    "name": "qm9s_scaffold_vibratrans_ir_seed1",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -3314,7 +3314,7 @@
       "length": 3501
     }
   },
-  "qm9s_scaffold_vibradit_raman_seed1": {
+  "qm9s_scaffold_vibratrans_raman_seed1": {
     "source": "raman",
     "seed": 1,
     "epochs": 100,
@@ -3336,7 +3336,7 @@
       "mae": 0.012600765683685703,
       "r2": 0.8005574689226835
     },
-    "name": "qm9s_scaffold_vibradit_raman_seed1",
+    "name": "qm9s_scaffold_vibratrans_raman_seed1",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -3509,7 +3509,7 @@
       "length": 3501
     }
   },
-  "qme14s_scaffold_vibradit_ir_seed1": {
+  "qme14s_scaffold_vibratrans_ir_seed1": {
     "source": "ir",
     "seed": 1,
     "epochs": 100,
@@ -3531,7 +3531,7 @@
       "mae": 0.007453803434952775,
       "r2": 0.8505866054605691
     },
-    "name": "qme14s_scaffold_vibradit_ir_seed1",
+    "name": "qme14s_scaffold_vibratrans_ir_seed1",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -3548,7 +3548,7 @@
       "length": 3500
     }
   },
-  "qme14s_scaffold_vibradit_raman_seed1": {
+  "qme14s_scaffold_vibratrans_raman_seed1": {
     "source": "raman",
     "seed": 1,
     "epochs": 100,
@@ -3570,7 +3570,7 @@
       "mae": 0.01226530416728597,
       "r2": 0.7221639031834891
     },
-    "name": "qme14s_scaffold_vibradit_raman_seed1",
+    "name": "qme14s_scaffold_vibratrans_raman_seed1",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -3743,7 +3743,7 @@
       "length": 3500
     }
   },
-  "qm9s_scaffold_vibradit_ir_seed2": {
+  "qm9s_scaffold_vibratrans_ir_seed2": {
     "source": "ir",
     "seed": 2,
     "epochs": 100,
@@ -3765,7 +3765,7 @@
       "mae": 0.004361363867779049,
       "r2": 0.9350273434528172
     },
-    "name": "qm9s_scaffold_vibradit_ir_seed2",
+    "name": "qm9s_scaffold_vibratrans_ir_seed2",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -3782,7 +3782,7 @@
       "length": 3501
     }
   },
-  "qm9s_scaffold_vibradit_raman_seed2": {
+  "qm9s_scaffold_vibratrans_raman_seed2": {
     "source": "raman",
     "seed": 2,
     "epochs": 100,
@@ -3804,7 +3804,7 @@
       "mae": 0.012600765683685703,
       "r2": 0.8005574689226835
     },
-    "name": "qm9s_scaffold_vibradit_raman_seed2",
+    "name": "qm9s_scaffold_vibratrans_raman_seed2",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -3977,7 +3977,7 @@
       "length": 3501
     }
   },
-  "qme14s_scaffold_vibradit_ir_seed2": {
+  "qme14s_scaffold_vibratrans_ir_seed2": {
     "source": "ir",
     "seed": 2,
     "epochs": 100,
@@ -3999,7 +3999,7 @@
       "mae": 0.007453803434952775,
       "r2": 0.8505866054605691
     },
-    "name": "qme14s_scaffold_vibradit_ir_seed2",
+    "name": "qme14s_scaffold_vibratrans_ir_seed2",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -4016,7 +4016,7 @@
       "length": 3500
     }
   },
-  "qme14s_scaffold_vibradit_raman_seed2": {
+  "qme14s_scaffold_vibratrans_raman_seed2": {
     "source": "raman",
     "seed": 2,
     "epochs": 100,
@@ -4038,7 +4038,7 @@
       "mae": 0.01226530416728597,
       "r2": 0.7221639031834891
     },
-    "name": "qme14s_scaffold_vibradit_raman_seed2",
+    "name": "qme14s_scaffold_vibratrans_raman_seed2",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -4211,7 +4211,7 @@
       "length": 3500
     }
   },
-  "qm9s_scaffold_vibradit_ir_seed3": {
+  "qm9s_scaffold_vibratrans_ir_seed3": {
     "source": "ir",
     "seed": 3,
     "epochs": 100,
@@ -4233,7 +4233,7 @@
       "mae": 0.004361363867779049,
       "r2": 0.9350273434528172
     },
-    "name": "qm9s_scaffold_vibradit_ir_seed3",
+    "name": "qm9s_scaffold_vibratrans_ir_seed3",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -4250,7 +4250,7 @@
       "length": 3501
     }
   },
-  "qm9s_scaffold_vibradit_raman_seed3": {
+  "qm9s_scaffold_vibratrans_raman_seed3": {
     "source": "raman",
     "seed": 3,
     "epochs": 100,
@@ -4272,7 +4272,7 @@
       "mae": 0.012600765683685703,
       "r2": 0.8005574689226835
     },
-    "name": "qm9s_scaffold_vibradit_raman_seed3",
+    "name": "qm9s_scaffold_vibratrans_raman_seed3",
     "dataset": "qm9s_scaffold",
     "data_directory": "qm9s",
     "split_file": "configs/splits/qm9s_scaffold.npz",
@@ -4445,7 +4445,7 @@
       "length": 3501
     }
   },
-  "qme14s_scaffold_vibradit_ir_seed3": {
+  "qme14s_scaffold_vibratrans_ir_seed3": {
     "source": "ir",
     "seed": 3,
     "epochs": 100,
@@ -4467,7 +4467,7 @@
       "mae": 0.007453803434952775,
       "r2": 0.8505866054605691
     },
-    "name": "qme14s_scaffold_vibradit_ir_seed3",
+    "name": "qme14s_scaffold_vibratrans_ir_seed3",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -4484,7 +4484,7 @@
       "length": 3500
     }
   },
-  "qme14s_scaffold_vibradit_raman_seed3": {
+  "qme14s_scaffold_vibratrans_raman_seed3": {
     "source": "raman",
     "seed": 3,
     "epochs": 100,
@@ -4506,7 +4506,7 @@
       "mae": 0.01226530416728597,
       "r2": 0.7221639031834891
     },
-    "name": "qme14s_scaffold_vibradit_raman_seed3",
+    "name": "qme14s_scaffold_vibratrans_raman_seed3",
     "dataset": "qme14s_scaffold",
     "data_directory": "qme14s",
     "split_file": "configs/splits/qme14s_scaffold.npz",
@@ -4677,1878 +4677,6 @@
         "test": 26904
       },
       "length": 3500
-    }
-  },
-  "rruff_vibradit_ir_seed0": {
-    "source": "ir",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_vibradit_ir_seed0",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_vibradit_raman_seed0": {
-    "source": "raman",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_vibradit_raman_seed0",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_ir_seed0": {
-    "source": "ir",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_pe_ir_seed0",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_raman_seed0": {
-    "source": "raman",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_pe_raman_seed0",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_ir_seed0": {
-    "source": "ir",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_cnn_ir_seed0",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_raman_seed0": {
-    "source": "raman",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_cnn_raman_seed0",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_ir_seed0": {
-    "source": "ir",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_vibradit_ir_seed0",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_raman_seed0": {
-    "source": "raman",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_vibradit_raman_seed0",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_ir_seed0": {
-    "source": "ir",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_pe_ir_seed0",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_raman_seed0": {
-    "source": "raman",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_pe_raman_seed0",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_ir_seed0": {
-    "source": "ir",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_cnn_ir_seed0",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_raman_seed0": {
-    "source": "raman",
-    "seed": 0,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_cnn_raman_seed0",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_vibradit_ir_seed1": {
-    "source": "ir",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_vibradit_ir_seed1",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_vibradit_raman_seed1": {
-    "source": "raman",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_vibradit_raman_seed1",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_ir_seed1": {
-    "source": "ir",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_pe_ir_seed1",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_raman_seed1": {
-    "source": "raman",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_pe_raman_seed1",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_ir_seed1": {
-    "source": "ir",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_cnn_ir_seed1",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_raman_seed1": {
-    "source": "raman",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_cnn_raman_seed1",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_ir_seed1": {
-    "source": "ir",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_vibradit_ir_seed1",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_raman_seed1": {
-    "source": "raman",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_vibradit_raman_seed1",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_ir_seed1": {
-    "source": "ir",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_pe_ir_seed1",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_raman_seed1": {
-    "source": "raman",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_pe_raman_seed1",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_ir_seed1": {
-    "source": "ir",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_cnn_ir_seed1",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_raman_seed1": {
-    "source": "raman",
-    "seed": 1,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_cnn_raman_seed1",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_vibradit_ir_seed2": {
-    "source": "ir",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_vibradit_ir_seed2",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_vibradit_raman_seed2": {
-    "source": "raman",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_vibradit_raman_seed2",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_ir_seed2": {
-    "source": "ir",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_pe_ir_seed2",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_raman_seed2": {
-    "source": "raman",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_pe_raman_seed2",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_ir_seed2": {
-    "source": "ir",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_cnn_ir_seed2",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_raman_seed2": {
-    "source": "raman",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_cnn_raman_seed2",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_ir_seed2": {
-    "source": "ir",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_vibradit_ir_seed2",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_raman_seed2": {
-    "source": "raman",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_vibradit_raman_seed2",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_ir_seed2": {
-    "source": "ir",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_pe_ir_seed2",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_raman_seed2": {
-    "source": "raman",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_pe_raman_seed2",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_ir_seed2": {
-    "source": "ir",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_cnn_ir_seed2",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_raman_seed2": {
-    "source": "raman",
-    "seed": 2,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_cnn_raman_seed2",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_vibradit_ir_seed3": {
-    "source": "ir",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_vibradit_ir_seed3",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_vibradit_raman_seed3": {
-    "source": "raman",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_vibradit_raman_seed3",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_ir_seed3": {
-    "source": "ir",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_pe_ir_seed3",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_pe_raman_seed3": {
-    "source": "raman",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_pe_raman_seed3",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_ir_seed3": {
-    "source": "ir",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.20994385571811947,
-      "r2": -1.351535748233329
-    },
-    "name": "rruff_cnn_ir_seed3",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_cnn_raman_seed3": {
-    "source": "raman",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.1639146186113148,
-      "r2": -2.1068467483621522
-    },
-    "name": "rruff_cnn_raman_seed3",
-    "dataset": "rruff",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1438,
-        "val": 94,
-        "test": 125
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_ir_seed3": {
-    "source": "ir",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_vibradit_ir_seed3",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_vibradit_raman_seed3": {
-    "source": "raman",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "vibradit",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.1,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_vibradit_raman_seed3",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_ir_seed3": {
-    "source": "ir",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_pe_ir_seed3",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_pe_raman_seed3": {
-    "source": "raman",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "pe",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_pe_raman_seed3",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_ir_seed3": {
-    "source": "ir",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.0,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21621480900947948,
-      "r2": -1.1170542900647153
-    },
-    "name": "rruff_mineral_cnn_ir_seed3",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
-    }
-  },
-  "rruff_mineral_cnn_raman_seed3": {
-    "source": "raman",
-    "seed": 3,
-    "epochs": 30,
-    "batch_size": 128,
-    "validation_every": 5,
-    "config": {
-      "architecture": "cnn",
-      "steps": 1,
-      "dropout": 0.05,
-      "lr": 0.0002,
-      "terminal": "raw",
-      "velocity_weight": 0.0,
-      "shape_weight": 0.02,
-      "r2_weight": 0.005,
-      "ema_decay": 0.9995,
-      "locked_dropout": true
-    },
-    "selection_reference": {
-      "mae": 0.21507890795487486,
-      "r2": -1.404503409502491
-    },
-    "name": "rruff_mineral_cnn_raman_seed3",
-    "dataset": "rruff_mineral",
-    "data_directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "patch_size": 4,
-    "data_contract": {
-      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-      "counts": {
-        "train": 1223,
-        "val": 154,
-        "test": 215
-      },
-      "length": 576
     }
   }
 }

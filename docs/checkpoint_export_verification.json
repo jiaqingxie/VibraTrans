@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "model_tensors_identical_to_selected_originals": true,
+  "removed": [
+    "optimizer state",
+    "scheduler state",
+    "unselected EMA copy",
+    "training history"
+  ],
+  "exports": [
+    {
+      "task": "qm9s_vibratrans_ir_seed0",
+      "source": "ir",
+      "filename": "qm9s_vibratrans_ir_seed0.pt",
+      "sha256": "c6b02356dd1e3ad31d62ef601c62f2f40c93c8de98d142f09ec371676dfb5fba",
+      "bytes": 91464750,
+      "url": "https://github.com/jiaqingxie/VibraTrans/releases/download/v0.2.0/qm9s_vibratrans_ir_seed0.pt",
+      "expected_prediction": "expected_from_ir.npy",
+      "expected_features": "expected_features_ir.npy",
+      "original_checkpoint_sha256": "9f862c71fd902f5c36c2669acf639ca24d234d74501330bd39dfc9b850a672f4",
+      "export": "Inference-only state dictionary and portable task; every model tensor equals the original selected checkpoint"
+    },
+    {
+      "task": "qm9s_vibratrans_raman_seed0",
+      "source": "raman",
+      "filename": "qm9s_vibratrans_raman_seed0.pt",
+      "sha256": "3ad495aa99fd85133541e5353382fc8a6ec179503b34fe86635b923be957773e",
+      "bytes": 91465065,
+      "url": "https://github.com/jiaqingxie/VibraTrans/releases/download/v0.2.0/qm9s_vibratrans_raman_seed0.pt",
+      "expected_prediction": "expected_from_raman.npy",
+      "expected_features": "expected_features_raman.npy",
+      "original_checkpoint_sha256": "51d4846fa50bd8adeac4daa4e693fdfd8ca33f3997b02f1fc353a2f87e62dc41",
+      "export": "Inference-only state dictionary and portable task; every model tensor equals the original selected checkpoint"
+    }
+  ]
+}

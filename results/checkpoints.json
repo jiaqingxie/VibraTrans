@@ -1,6 +1,6 @@
 [
   {
-    "task": "qm9s_vibradit_ir_seed0",
+    "task": "qm9s_vibratrans_ir_seed0",
     "original_run": "phase10/runs/qm9s_scratch_vibradit1_ir_seed0",
     "checkpoint_sha256": "9f862c71fd902f5c36c2669acf639ca24d234d74501330bd39dfc9b850a672f4",
     "epoch": 60,
@@ -16,7 +16,7 @@
     "original_initial_state_sha256": "8b7892791845578f4d2b25b91b02cd06c12942262d4fe564ac56c40f924180cb"
   },
   {
-    "task": "qm9s_vibradit_raman_seed0",
+    "task": "qm9s_vibratrans_raman_seed0",
     "original_run": "phase10/runs/qm9s_scratch_vibradit1_raman_seed0",
     "checkpoint_sha256": "51d4846fa50bd8adeac4daa4e693fdfd8ca33f3997b02f1fc353a2f87e62dc41",
     "epoch": 100,
@@ -96,7 +96,7 @@
     "original_initial_state_sha256": "e8073a9798abc42b24ab976f7b5b910d5fabe583fcf978f1d0f30fe46070b591"
   },
   {
-    "task": "qm9s_vibradit_ir_seed1",
+    "task": "qm9s_vibratrans_ir_seed1",
     "original_run": "phase11/runs/qm9s_scratch_vibradit1_ir_seed1",
     "checkpoint_sha256": "9f8ed0620b436556cf46c70b9c4dd98c4a7ead56cd23449132d58246a61d00a1",
     "epoch": 60,
@@ -112,7 +112,7 @@
     "original_initial_state_sha256": "5b3d595b1eda7d2c63b9c79d5481d67582a22d9b813b72e4fd57e90c2aaac929"
   },
   {
-    "task": "qm9s_vibradit_raman_seed1",
+    "task": "qm9s_vibratrans_raman_seed1",
     "original_run": "phase11/runs/qm9s_scratch_vibradit1_raman_seed1",
     "checkpoint_sha256": "cfac60d33aaa58af3abc9345cdbeb7728da1bc0dbfc18f5d13074ac2f89ce9ec",
     "epoch": 100,
@@ -192,7 +192,7 @@
     "original_initial_state_sha256": "46ee36ce6668f64f2a6cdc64fbcdae78e02022932894c2fd87482a9a5911d235"
   },
   {
-    "task": "qm9s_vibradit_ir_seed2",
+    "task": "qm9s_vibratrans_ir_seed2",
     "original_run": "phase11/runs/qm9s_scratch_vibradit1_ir_seed2",
     "checkpoint_sha256": "5ecc0ddd4c81c4a7f97111df51ce47c37ff5b57d38fc751bcb4b3a32b49380f8",
     "epoch": 60,
@@ -208,7 +208,7 @@
     "original_initial_state_sha256": "d2052b527061b54f1aa408437e667a24f83f68da644263b7bb724e0bf5f9a304"
   },
   {
-    "task": "qm9s_vibradit_raman_seed2",
+    "task": "qm9s_vibratrans_raman_seed2",
     "original_run": "phase11/runs/qm9s_scratch_vibradit1_raman_seed2",
     "checkpoint_sha256": "c869e66a7f58cc5bdde73ef5da5faae6e013f395bb69b689f4aeb0b148548127",
     "epoch": 100,
@@ -288,7 +288,7 @@
     "original_initial_state_sha256": "5199a6d76d5997389f1677a323712f4daf2b9dbd0d271ce2b52ee60bc4e81bdb"
   },
   {
-    "task": "qm9s_vibradit_ir_seed3",
+    "task": "qm9s_vibratrans_ir_seed3",
     "original_run": "phase11/runs/qm9s_scratch_vibradit1_ir_seed3",
     "checkpoint_sha256": "5219a47cf2618bd3141ce4be0c1697f9b1397d68d3e636b5cd95b6d716ca71cb",
     "epoch": 65,
@@ -304,7 +304,7 @@
     "original_initial_state_sha256": "9e23286b3c78afc0c4a3db2e1257e2d40fafc82351f2703034d83109e8ad80d3"
   },
   {
-    "task": "qm9s_vibradit_raman_seed3",
+    "task": "qm9s_vibratrans_raman_seed3",
     "original_run": "phase11/runs/qm9s_scratch_vibradit1_raman_seed3",
     "checkpoint_sha256": "35ff0a59be083cb6c6235fc9ff8604cd30fc91c4b0def126e36c6b2222772310",
     "epoch": 100,
@@ -384,7 +384,7 @@
     "original_initial_state_sha256": "c426e8a1366e10a0922f42969103989fd05795615c7c3e79123e03c9aca7a69b"
   },
   {
-    "task": "qme14s_vibradit_ir_seed0",
+    "task": "qme14s_vibratrans_ir_seed0",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_ir_seed0",
     "checkpoint_sha256": "b9b9fecccb884a1241d22f4f90fb72860a6c4d3d7d9769a2e1b0903866347339",
     "epoch": 35,
@@ -400,7 +400,7 @@
     "original_initial_state_sha256": "8b7892791845578f4d2b25b91b02cd06c12942262d4fe564ac56c40f924180cb"
   },
   {
-    "task": "qme14s_vibradit_raman_seed0",
+    "task": "qme14s_vibratrans_raman_seed0",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_raman_seed0",
     "checkpoint_sha256": "af9a5a791d510ebdeaeac2e80904c4baad78b27de97c94348ac99bfd2952f550",
     "epoch": 100,
@@ -480,7 +480,7 @@
     "original_initial_state_sha256": "e8073a9798abc42b24ab976f7b5b910d5fabe583fcf978f1d0f30fe46070b591"
   },
   {
-    "task": "vibench_full_vibradit_ir_seed0",
+    "task": "vibench_full_vibratrans_ir_seed0",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_ir_seed0",
     "checkpoint_sha256": "c7d0004f4539806030268e66fd1520c550b97ad1d36e93f2dedd19e8f067a4d7",
     "epoch": 55,
@@ -496,7 +496,7 @@
     "original_initial_state_sha256": "8b7892791845578f4d2b25b91b02cd06c12942262d4fe564ac56c40f924180cb"
   },
   {
-    "task": "vibench_full_vibradit_raman_seed0",
+    "task": "vibench_full_vibratrans_raman_seed0",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_raman_seed0",
     "checkpoint_sha256": "4e2e8f7f431e565ddf2b51dd5c509aab1cde8c11c7b30eaaa8798856ef6ac17e",
     "epoch": 70,
@@ -576,7 +576,7 @@
     "original_initial_state_sha256": "e8073a9798abc42b24ab976f7b5b910d5fabe583fcf978f1d0f30fe46070b591"
   },
   {
-    "task": "qme14s_vibradit_ir_seed1",
+    "task": "qme14s_vibratrans_ir_seed1",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_ir_seed1",
     "checkpoint_sha256": "312374e6140211a27eaaa75e6504e64eb9992cb4cafc6dd12c29fa1c8bcabf44",
     "epoch": 40,
@@ -592,7 +592,7 @@
     "original_initial_state_sha256": "5b3d595b1eda7d2c63b9c79d5481d67582a22d9b813b72e4fd57e90c2aaac929"
   },
   {
-    "task": "qme14s_vibradit_raman_seed1",
+    "task": "qme14s_vibratrans_raman_seed1",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_raman_seed1",
     "checkpoint_sha256": "89fdc35a3ce10617e9f26f31a6bd8a873abd53df8b7d29546cbc3f9eda178f9c",
     "epoch": 100,
@@ -672,7 +672,7 @@
     "original_initial_state_sha256": "46ee36ce6668f64f2a6cdc64fbcdae78e02022932894c2fd87482a9a5911d235"
   },
   {
-    "task": "vibench_full_vibradit_ir_seed1",
+    "task": "vibench_full_vibratrans_ir_seed1",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_ir_seed1",
     "checkpoint_sha256": "be2bfd82ca0403779b0777c23dde50bb6168a2aedd64463a14e75825ebe9040b",
     "epoch": 55,
@@ -688,7 +688,7 @@
     "original_initial_state_sha256": "5b3d595b1eda7d2c63b9c79d5481d67582a22d9b813b72e4fd57e90c2aaac929"
   },
   {
-    "task": "vibench_full_vibradit_raman_seed1",
+    "task": "vibench_full_vibratrans_raman_seed1",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_raman_seed1",
     "checkpoint_sha256": "9cb05fa3c80b702b971bd611eb547f3bfd34f1cc0e5864404d354eb988b9640c",
     "epoch": 65,
@@ -768,7 +768,7 @@
     "original_initial_state_sha256": "46ee36ce6668f64f2a6cdc64fbcdae78e02022932894c2fd87482a9a5911d235"
   },
   {
-    "task": "qme14s_vibradit_ir_seed2",
+    "task": "qme14s_vibratrans_ir_seed2",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_ir_seed2",
     "checkpoint_sha256": "4a047147bd5ae7c82f14270e3231b734b1bfac8cd7e2a6c24b7fc5cfb9fd4af4",
     "epoch": 40,
@@ -784,7 +784,7 @@
     "original_initial_state_sha256": "d2052b527061b54f1aa408437e667a24f83f68da644263b7bb724e0bf5f9a304"
   },
   {
-    "task": "qme14s_vibradit_raman_seed2",
+    "task": "qme14s_vibratrans_raman_seed2",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_raman_seed2",
     "checkpoint_sha256": "97b73529c69ab67b677da3bf9158a8e4692a1bcfe9e07f0d73cce6324fed3518",
     "epoch": 100,
@@ -864,7 +864,7 @@
     "original_initial_state_sha256": "5199a6d76d5997389f1677a323712f4daf2b9dbd0d271ce2b52ee60bc4e81bdb"
   },
   {
-    "task": "vibench_full_vibradit_ir_seed2",
+    "task": "vibench_full_vibratrans_ir_seed2",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_ir_seed2",
     "checkpoint_sha256": "ac825e2ab88452bc72cb178c70213e670e0635479878996a214a36df2199c839",
     "epoch": 60,
@@ -880,7 +880,7 @@
     "original_initial_state_sha256": "d2052b527061b54f1aa408437e667a24f83f68da644263b7bb724e0bf5f9a304"
   },
   {
-    "task": "vibench_full_vibradit_raman_seed2",
+    "task": "vibench_full_vibratrans_raman_seed2",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_raman_seed2",
     "checkpoint_sha256": "e9a921c8257f59227acb7f4d6320967bc4f742c0172261bd3e073645879f723c",
     "epoch": 65,
@@ -960,7 +960,7 @@
     "original_initial_state_sha256": "5199a6d76d5997389f1677a323712f4daf2b9dbd0d271ce2b52ee60bc4e81bdb"
   },
   {
-    "task": "qme14s_vibradit_ir_seed3",
+    "task": "qme14s_vibratrans_ir_seed3",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_ir_seed3",
     "checkpoint_sha256": "7576cb4575abc21873cea7a916e950b4f88cf9ca93ac9081a96c0fd65f96ab6a",
     "epoch": 35,
@@ -976,7 +976,7 @@
     "original_initial_state_sha256": "9e23286b3c78afc0c4a3db2e1257e2d40fafc82351f2703034d83109e8ad80d3"
   },
   {
-    "task": "qme14s_vibradit_raman_seed3",
+    "task": "qme14s_vibratrans_raman_seed3",
     "original_run": "phase12/runs/qme14s_primary_vibradit1_raman_seed3",
     "checkpoint_sha256": "db445578e2e65a046e8c9fa3b00c28d0bdcdd8a522177a0e4ab8b8c3760ad29e",
     "epoch": 80,
@@ -1056,7 +1056,7 @@
     "original_initial_state_sha256": "c426e8a1366e10a0922f42969103989fd05795615c7c3e79123e03c9aca7a69b"
   },
   {
-    "task": "vibench_full_vibradit_ir_seed3",
+    "task": "vibench_full_vibratrans_ir_seed3",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_ir_seed3",
     "checkpoint_sha256": "1eaf935c9cf8677af11720a7186067efe66646e777dfcf71e3170580c2f515f1",
     "epoch": 55,
@@ -1072,7 +1072,7 @@
     "original_initial_state_sha256": "9e23286b3c78afc0c4a3db2e1257e2d40fafc82351f2703034d83109e8ad80d3"
   },
   {
-    "task": "vibench_full_vibradit_raman_seed3",
+    "task": "vibench_full_vibratrans_raman_seed3",
     "original_run": "phase12/runs/vibench_full_primary_vibradit1_raman_seed3",
     "checkpoint_sha256": "81304254fca1bbc3bf920f9427cbc2291089a25bc0e5176ec3118378f7f9c733",
     "epoch": 70,
@@ -1152,7 +1152,7 @@
     "original_initial_state_sha256": "c426e8a1366e10a0922f42969103989fd05795615c7c3e79123e03c9aca7a69b"
   },
   {
-    "task": "qm9s_scaffold_vibradit_ir_seed0",
+    "task": "qm9s_scaffold_vibratrans_ir_seed0",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_ir_seed0",
     "checkpoint_sha256": "ffeeb01734680b7784d9a9096667326dd799c3e1f63d39c9ab246bb031e5e94b",
     "epoch": 55,
@@ -1168,7 +1168,7 @@
     "original_initial_state_sha256": "8b7892791845578f4d2b25b91b02cd06c12942262d4fe564ac56c40f924180cb"
   },
   {
-    "task": "qm9s_scaffold_vibradit_raman_seed0",
+    "task": "qm9s_scaffold_vibratrans_raman_seed0",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_raman_seed0",
     "checkpoint_sha256": "9650c32002ba7b21d3ff3b820ff2f07fe22097c9fc9193d43f6ff1e130837228",
     "epoch": 90,
@@ -1248,7 +1248,7 @@
     "original_initial_state_sha256": "e8073a9798abc42b24ab976f7b5b910d5fabe583fcf978f1d0f30fe46070b591"
   },
   {
-    "task": "qme14s_scaffold_vibradit_ir_seed0",
+    "task": "qme14s_scaffold_vibratrans_ir_seed0",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_ir_seed0",
     "checkpoint_sha256": "f92f9eb59ca07c0fab5203e8353dcf414f80659c647986b686af7426e65ccb44",
     "epoch": 35,
@@ -1264,7 +1264,7 @@
     "original_initial_state_sha256": "8b7892791845578f4d2b25b91b02cd06c12942262d4fe564ac56c40f924180cb"
   },
   {
-    "task": "qme14s_scaffold_vibradit_raman_seed0",
+    "task": "qme14s_scaffold_vibratrans_raman_seed0",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_raman_seed0",
     "checkpoint_sha256": "7d009d8baac4477975fc8b83bd6227cc33943d3e1d828fd248bc50d4859984a9",
     "epoch": 85,
@@ -1344,7 +1344,7 @@
     "original_initial_state_sha256": "e8073a9798abc42b24ab976f7b5b910d5fabe583fcf978f1d0f30fe46070b591"
   },
   {
-    "task": "qm9s_scaffold_vibradit_ir_seed1",
+    "task": "qm9s_scaffold_vibratrans_ir_seed1",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_ir_seed1",
     "checkpoint_sha256": "e124d33cda6b1496d1820344f8f88cc551d52594b740427447aa7169c9389dc5",
     "epoch": 60,
@@ -1360,7 +1360,7 @@
     "original_initial_state_sha256": "5b3d595b1eda7d2c63b9c79d5481d67582a22d9b813b72e4fd57e90c2aaac929"
   },
   {
-    "task": "qm9s_scaffold_vibradit_raman_seed1",
+    "task": "qm9s_scaffold_vibratrans_raman_seed1",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_raman_seed1",
     "checkpoint_sha256": "d29ba18d97b71e63debf899b6445ef629f29c38a0e0c71e434faa6fa82360494",
     "epoch": 85,
@@ -1440,7 +1440,7 @@
     "original_initial_state_sha256": "46ee36ce6668f64f2a6cdc64fbcdae78e02022932894c2fd87482a9a5911d235"
   },
   {
-    "task": "qme14s_scaffold_vibradit_ir_seed1",
+    "task": "qme14s_scaffold_vibratrans_ir_seed1",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_ir_seed1",
     "checkpoint_sha256": "b130e33bcf47cb00f8b6dbc2a90c789b77f7cd50f9d4c39b5538c2a9a4a23ff3",
     "epoch": 30,
@@ -1456,7 +1456,7 @@
     "original_initial_state_sha256": "5b3d595b1eda7d2c63b9c79d5481d67582a22d9b813b72e4fd57e90c2aaac929"
   },
   {
-    "task": "qme14s_scaffold_vibradit_raman_seed1",
+    "task": "qme14s_scaffold_vibratrans_raman_seed1",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_raman_seed1",
     "checkpoint_sha256": "9bb11f1ef541df672ccf68b8af268d4b4b57db92a548df4fdc6cba5f32f93436",
     "epoch": 55,
@@ -1536,7 +1536,7 @@
     "original_initial_state_sha256": "46ee36ce6668f64f2a6cdc64fbcdae78e02022932894c2fd87482a9a5911d235"
   },
   {
-    "task": "qm9s_scaffold_vibradit_ir_seed2",
+    "task": "qm9s_scaffold_vibratrans_ir_seed2",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_ir_seed2",
     "checkpoint_sha256": "00c9d75873cd810417018ee138a0ded073aad7534f22a63308653e7be7837906",
     "epoch": 55,
@@ -1552,7 +1552,7 @@
     "original_initial_state_sha256": "d2052b527061b54f1aa408437e667a24f83f68da644263b7bb724e0bf5f9a304"
   },
   {
-    "task": "qm9s_scaffold_vibradit_raman_seed2",
+    "task": "qm9s_scaffold_vibratrans_raman_seed2",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_raman_seed2",
     "checkpoint_sha256": "daa23651e1e6ad393e2e5c85bf8ed8cda7de9c408669aaa53d6a15f81288e94f",
     "epoch": 90,
@@ -1632,7 +1632,7 @@
     "original_initial_state_sha256": "5199a6d76d5997389f1677a323712f4daf2b9dbd0d271ce2b52ee60bc4e81bdb"
   },
   {
-    "task": "qme14s_scaffold_vibradit_ir_seed2",
+    "task": "qme14s_scaffold_vibratrans_ir_seed2",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_ir_seed2",
     "checkpoint_sha256": "c4060214adeafa58ac9df02fb0738feaba34ca2117137eb91eedc46ead8c110b",
     "epoch": 30,
@@ -1648,7 +1648,7 @@
     "original_initial_state_sha256": "d2052b527061b54f1aa408437e667a24f83f68da644263b7bb724e0bf5f9a304"
   },
   {
-    "task": "qme14s_scaffold_vibradit_raman_seed2",
+    "task": "qme14s_scaffold_vibratrans_raman_seed2",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_raman_seed2",
     "checkpoint_sha256": "6b3d136f0f4a9b777ab4fc6fe36ac2a13ce883aa76a9ef008675b262df180ce4",
     "epoch": 70,
@@ -1728,7 +1728,7 @@
     "original_initial_state_sha256": "5199a6d76d5997389f1677a323712f4daf2b9dbd0d271ce2b52ee60bc4e81bdb"
   },
   {
-    "task": "qm9s_scaffold_vibradit_ir_seed3",
+    "task": "qm9s_scaffold_vibratrans_ir_seed3",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_ir_seed3",
     "checkpoint_sha256": "df0f74b843cb00e350580c5a9e3497e86470bc3c5cd19994c826780ea10c8dbd",
     "epoch": 55,
@@ -1744,7 +1744,7 @@
     "original_initial_state_sha256": "9e23286b3c78afc0c4a3db2e1257e2d40fafc82351f2703034d83109e8ad80d3"
   },
   {
-    "task": "qm9s_scaffold_vibradit_raman_seed3",
+    "task": "qm9s_scaffold_vibratrans_raman_seed3",
     "original_run": "phase13/runs/qm9s_scaffold_primary_vibradit1_raman_seed3",
     "checkpoint_sha256": "aeb4791efb1973cf91160def41d2ad0f2e1874165b89c0ce40ed3e9cd65096ad",
     "epoch": 100,
@@ -1824,7 +1824,7 @@
     "original_initial_state_sha256": "c426e8a1366e10a0922f42969103989fd05795615c7c3e79123e03c9aca7a69b"
   },
   {
-    "task": "qme14s_scaffold_vibradit_ir_seed3",
+    "task": "qme14s_scaffold_vibratrans_ir_seed3",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_ir_seed3",
     "checkpoint_sha256": "e69094bfb044f5d2511a74f4e3780b12fb6a0a83d0276feddc97815a37e4a99f",
     "epoch": 30,
@@ -1840,7 +1840,7 @@
     "original_initial_state_sha256": "9e23286b3c78afc0c4a3db2e1257e2d40fafc82351f2703034d83109e8ad80d3"
   },
   {
-    "task": "qme14s_scaffold_vibradit_raman_seed3",
+    "task": "qme14s_scaffold_vibratrans_raman_seed3",
     "original_run": "phase13/runs/qme14s_scaffold_primary_vibradit1_raman_seed3",
     "checkpoint_sha256": "1bc8ea3ed0ff615581990c6b0e8654d4853e678392c8137bcb018d3c737533bb",
     "epoch": 65,
@@ -1918,773 +1918,5 @@
     },
     "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
     "original_initial_state_sha256": "c426e8a1366e10a0922f42969103989fd05795615c7c3e79123e03c9aca7a69b"
-  },
-  {
-    "task": "rruff_vibradit_ir_seed0",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_ir_seed0",
-    "checkpoint_sha256": "72cd829d142a71c2b5d1e6801f9bca4032fc72d3e95dad75cc1985ea85eef40e",
-    "epoch": 20,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.150546694151994,
-      "mae": 0.1934952168783657,
-      "r2": -0.6587727746324682,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8411d47367c584271d060b25207990c11919bb0abe8b0b3a2361c5ebb01f29a8"
-  },
-  {
-    "task": "rruff_vibradit_raman_seed0",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_raman_seed0",
-    "checkpoint_sha256": "977249da385f22e97bcc2da89abd7c2a7333a02559c55c5b29ae5e3e2a565bc8",
-    "epoch": 15,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.12884071466360617,
-      "mae": 0.17232956867618562,
-      "r2": -2.0877234420314834,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8411d47367c584271d060b25207990c11919bb0abe8b0b3a2361c5ebb01f29a8"
-  },
-  {
-    "task": "rruff_pe_ir_seed0",
-    "original_run": "phase14/runs/rruff_primary_pe1_ir_seed0",
-    "checkpoint_sha256": "52af0cc564a43635bd21b9f1941d39666c8e78468b437847d27b68f22959ca53",
-    "epoch": 10,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.15439010799479908,
-      "mae": 0.19374209886700075,
-      "r2": -0.7748355626992078,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "adc79305b3d7b345be4bd59d84085df9036b59f08d1fdca7d27ffb8541586402"
-  },
-  {
-    "task": "rruff_pe_raman_seed0",
-    "original_run": "phase14/runs/rruff_primary_pe1_raman_seed0",
-    "checkpoint_sha256": "b53458253cf6f0e613a1d1e07a40bc47c3153f951fc4e398824ff04695475ab9",
-    "epoch": 5,
-    "weights": "ema",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.17683418973482834,
-      "mae": 0.23103474024304774,
-      "r2": -3.554906208901323,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "adc79305b3d7b345be4bd59d84085df9036b59f08d1fdca7d27ffb8541586402"
-  },
-  {
-    "task": "rruff_cnn_ir_seed0",
-    "original_run": "phase14/runs/rruff_primary_cnn1_ir_seed0",
-    "checkpoint_sha256": "8d1f76538254844b0950e9ca3f408983b6a4b75a89c3b84d2d9ee8d39d2b5e21",
-    "epoch": 5,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.15083664359403612,
-      "mae": 0.19464419141536818,
-      "r2": -0.7573171543147726,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "f1581274d7b879f321d8c59b234c3f207795490ba91255eee45f34ab5b9a8315"
-  },
-  {
-    "task": "rruff_cnn_raman_seed0",
-    "original_run": "phase14/runs/rruff_primary_cnn1_raman_seed0",
-    "checkpoint_sha256": "5e9ce3829359b76f4bd140cb99578ce8750ab7622fdea9da154dfc6b9bc7e671",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.1060080105240308,
-      "mae": 0.14087670326606586,
-      "r2": -2.021341224291634,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "f1581274d7b879f321d8c59b234c3f207795490ba91255eee45f34ab5b9a8315"
-  },
-  {
-    "task": "rruff_mineral_vibradit_ir_seed0",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_ir_seed0",
-    "checkpoint_sha256": "d8d0c1d167bf90caba10c37a96e5859344a8401717c89307cd72d43ddc860569",
-    "epoch": 15,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.1524012034495516,
-      "mae": 0.1970238109280741,
-      "r2": -0.5950586777663567,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8411d47367c584271d060b25207990c11919bb0abe8b0b3a2361c5ebb01f29a8"
-  },
-  {
-    "task": "rruff_mineral_vibradit_raman_seed0",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_raman_seed0",
-    "checkpoint_sha256": "9361239620dca27b510df52c67a578c0f7a20ce52491376fd12f9e65c114985a",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.15534315374852342,
-      "mae": 0.19885340732465034,
-      "r2": -1.0703987009925842,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8411d47367c584271d060b25207990c11919bb0abe8b0b3a2361c5ebb01f29a8"
-  },
-  {
-    "task": "rruff_mineral_pe_ir_seed0",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_ir_seed0",
-    "checkpoint_sha256": "556d90e1c56547eb3e2e9e3de9667755fb491abe0770197a8997fddd4439205d",
-    "epoch": 10,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.16525738721248823,
-      "mae": 0.20645053556692888,
-      "r2": -0.7148256798362129,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "adc79305b3d7b345be4bd59d84085df9036b59f08d1fdca7d27ffb8541586402"
-  },
-  {
-    "task": "rruff_mineral_pe_raman_seed0",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_raman_seed0",
-    "checkpoint_sha256": "806d4efbeb30ac437c31566bf46a3ecbb16ff5cba67854e530932bb3feb51eb4",
-    "epoch": 5,
-    "weights": "ema",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.21546814462290495,
-      "mae": 0.2743687139550588,
-      "r2": -2.1074995813590336,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "adc79305b3d7b345be4bd59d84085df9036b59f08d1fdca7d27ffb8541586402"
-  },
-  {
-    "task": "rruff_mineral_cnn_ir_seed0",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_ir_seed0",
-    "checkpoint_sha256": "d37a80d3538458981c614ef52af0dc2311a71c44665574be66eef104a34ce745",
-    "epoch": 15,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.15299776877203272,
-      "mae": 0.19610966097351573,
-      "r2": -0.542518397134968,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "f1581274d7b879f321d8c59b234c3f207795490ba91255eee45f34ab5b9a8315"
-  },
-  {
-    "task": "rruff_mineral_cnn_raman_seed0",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_raman_seed0",
-    "checkpoint_sha256": "1d9ad87b68724e38471ab0c64b14278d236f602fd6aedc9ae2834b0093c47b46",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.14775675102168476,
-      "mae": 0.1866649494878718,
-      "r2": -1.0314676067198565,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "f1581274d7b879f321d8c59b234c3f207795490ba91255eee45f34ab5b9a8315"
-  },
-  {
-    "task": "rruff_vibradit_ir_seed1",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_ir_seed1",
-    "checkpoint_sha256": "26c1a1baa8dff8da24be3ebfc171aabb3c48209f4f65169bfc02a2e4ccb9c746",
-    "epoch": 10,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.15036249785784386,
-      "mae": 0.1922401211328329,
-      "r2": -0.6615081584180432,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "7ec6f642bdbf6e1aea04959cb8e5cf2e9122583e0b6a323b4bc9398f6804ba50"
-  },
-  {
-    "task": "rruff_vibradit_raman_seed1",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_raman_seed1",
-    "checkpoint_sha256": "c1d9796d1cb682b6463e04854b3ffa23a48ad21fe130f689c2ae314c77717a0a",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.11930935263733201,
-      "mae": 0.15617146630151776,
-      "r2": -2.6077782346173364,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "7ec6f642bdbf6e1aea04959cb8e5cf2e9122583e0b6a323b4bc9398f6804ba50"
-  },
-  {
-    "task": "rruff_pe_ir_seed1",
-    "original_run": "phase14/runs/rruff_primary_pe1_ir_seed1",
-    "checkpoint_sha256": "3a3d90785975fb419b7a0bfe46c78561d591a372b72c4c69b382634496d33b0b",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.1496630275057045,
-      "mae": 0.19351675757045236,
-      "r2": -0.7609280882127891,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "435b5a15cc9b76584ce7b66e35284619a91f13b29afe8d90b0f5d83371ba5dcd"
-  },
-  {
-    "task": "rruff_pe_raman_seed1",
-    "original_run": "phase14/runs/rruff_primary_pe1_raman_seed1",
-    "checkpoint_sha256": "80f68ea2bb01d8d1461dbcbd4229acf8ad773fd92e1a452be545b29a6d0d51f7",
-    "epoch": 20,
-    "weights": "ema",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.1849973177582978,
-      "mae": 0.24102771018785007,
-      "r2": -3.6879117308980702,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "435b5a15cc9b76584ce7b66e35284619a91f13b29afe8d90b0f5d83371ba5dcd"
-  },
-  {
-    "task": "rruff_cnn_ir_seed1",
-    "original_run": "phase14/runs/rruff_primary_cnn1_ir_seed1",
-    "checkpoint_sha256": "900911ed5f756cdc847d848ff7599c7d81b484a3d983868b9a438ea3b1aae77b",
-    "epoch": 5,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.1513268588816152,
-      "mae": 0.1940153987508746,
-      "r2": -0.7836518867086388,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "5065ff48ea1c93ee89bf2bcb44e5e554f0b9d13bb95603f738ecce54382bd46c"
-  },
-  {
-    "task": "rruff_cnn_raman_seed1",
-    "original_run": "phase14/runs/rruff_primary_cnn1_raman_seed1",
-    "checkpoint_sha256": "bed3caaa011dd48ad09c9eed3644666324044da1571287aceff7f6702b946c7c",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.11412060697410718,
-      "mae": 0.15072291536359975,
-      "r2": -2.0067048282623716,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "5065ff48ea1c93ee89bf2bcb44e5e554f0b9d13bb95603f738ecce54382bd46c"
-  },
-  {
-    "task": "rruff_mineral_vibradit_ir_seed1",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_ir_seed1",
-    "checkpoint_sha256": "85cee473bfd497702bfa674f1aec360c2cecde5a694e07b41df8c64a032a1e61",
-    "epoch": 15,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.15363849645234712,
-      "mae": 0.20015789344512205,
-      "r2": -0.6427828470608088,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "7ec6f642bdbf6e1aea04959cb8e5cf2e9122583e0b6a323b4bc9398f6804ba50"
-  },
-  {
-    "task": "rruff_mineral_vibradit_raman_seed1",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_raman_seed1",
-    "checkpoint_sha256": "5f794efbe9455d2482f57e37e58eda0ac8f25b1c182c7c546adfb6cc52caedf1",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.16129933548421074,
-      "mae": 0.20379058740328657,
-      "r2": -1.2215078164246167,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "7ec6f642bdbf6e1aea04959cb8e5cf2e9122583e0b6a323b4bc9398f6804ba50"
-  },
-  {
-    "task": "rruff_mineral_pe_ir_seed1",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_ir_seed1",
-    "checkpoint_sha256": "6fc74f511774125cb52236dc0f86ce892bdd83088fbafcc376ffd7df12c43cb5",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.16267596864284709,
-      "mae": 0.20716798446230875,
-      "r2": -0.7355322688421613,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "435b5a15cc9b76584ce7b66e35284619a91f13b29afe8d90b0f5d83371ba5dcd"
-  },
-  {
-    "task": "rruff_mineral_pe_raman_seed1",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_raman_seed1",
-    "checkpoint_sha256": "0f0f42d02865c84c1f2524e0006b3fc91d4fbbab191750a6d02dc567207adcb4",
-    "epoch": 25,
-    "weights": "ema",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.22280790873395784,
-      "mae": 0.28040969055169884,
-      "r2": -2.393690232480589,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "435b5a15cc9b76584ce7b66e35284619a91f13b29afe8d90b0f5d83371ba5dcd"
-  },
-  {
-    "task": "rruff_mineral_cnn_ir_seed1",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_ir_seed1",
-    "checkpoint_sha256": "c488d75d8dd348792eb49941ca47fa8a22c39f6bf433aa3834359ea6c7219590",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.15307530838057903,
-      "mae": 0.19686614195608404,
-      "r2": -0.5906007248647556,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "5065ff48ea1c93ee89bf2bcb44e5e554f0b9d13bb95603f738ecce54382bd46c"
-  },
-  {
-    "task": "rruff_mineral_cnn_raman_seed1",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_raman_seed1",
-    "checkpoint_sha256": "27f49c6b7fb8c2705769e45aed2d98f93786723754f4e4f9f9f9778ae302b281",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.15866958051469943,
-      "mae": 0.19877690819645183,
-      "r2": -1.2165718109949828,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "5065ff48ea1c93ee89bf2bcb44e5e554f0b9d13bb95603f738ecce54382bd46c"
-  },
-  {
-    "task": "rruff_vibradit_ir_seed2",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_ir_seed2",
-    "checkpoint_sha256": "c2c1f81041bf6196849def11bdef6cd0befff291399da87eab9ab6260e59cf3a",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.14977789798441318,
-      "mae": 0.19519429327709306,
-      "r2": -0.7177648278335017,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "14b0fa8162f47e49f708331d5c0adcce6888a6e5f7c88d27b2bc7769c66e762b"
-  },
-  {
-    "task": "rruff_vibradit_raman_seed2",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_raman_seed2",
-    "checkpoint_sha256": "a672a1525d0b45114ad1bf42977fa51f1373319e51b7b2dc1aa1933b86d6e8e0",
-    "epoch": 15,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.12818658909092565,
-      "mae": 0.1666057746582727,
-      "r2": -2.686629341238734,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "14b0fa8162f47e49f708331d5c0adcce6888a6e5f7c88d27b2bc7769c66e762b"
-  },
-  {
-    "task": "rruff_pe_ir_seed2",
-    "original_run": "phase14/runs/rruff_primary_pe1_ir_seed2",
-    "checkpoint_sha256": "cfed116fc277a7ba6f77f00c26bbea3fdfade177d66f4e9b5f239c3d1ea85a15",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.15986854902164807,
-      "mae": 0.20052659668787554,
-      "r2": -0.9086602014054876,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "fa1d5a147306ed234082e99788c47bbe90de14fd7a3ffec67f5026b7c37df2c5"
-  },
-  {
-    "task": "rruff_pe_raman_seed2",
-    "original_run": "phase14/runs/rruff_primary_pe1_raman_seed2",
-    "checkpoint_sha256": "2f771604efa76c70d59ea971a46a6ec8d713afa06958c96bf2a4ce2e5de8d57b",
-    "epoch": 15,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.14942540920464764,
-      "mae": 0.18807082106322792,
-      "r2": -3.634717802844827,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "fa1d5a147306ed234082e99788c47bbe90de14fd7a3ffec67f5026b7c37df2c5"
-  },
-  {
-    "task": "rruff_cnn_ir_seed2",
-    "original_run": "phase14/runs/rruff_primary_cnn1_ir_seed2",
-    "checkpoint_sha256": "1bf4db6772275e7d5ac5c72bad9528a414d6bb05c8d4d5b07e7b41d8fcb87bd7",
-    "epoch": 20,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.1509528969150583,
-      "mae": 0.19422425366606774,
-      "r2": -0.7017728379701773,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "b75c9b8d516efef1426d345474c57674efb7b1a2883eb128fea7dc27e00fccad"
-  },
-  {
-    "task": "rruff_cnn_raman_seed2",
-    "original_run": "phase14/runs/rruff_primary_cnn1_raman_seed2",
-    "checkpoint_sha256": "96a91428ea7cc5a383f3d8ae221068dcf9e0dfac9072c4114a592eb7ecc4f462",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.10736871222871539,
-      "mae": 0.1403016242578264,
-      "r2": -2.402878664821104,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "b75c9b8d516efef1426d345474c57674efb7b1a2883eb128fea7dc27e00fccad"
-  },
-  {
-    "task": "rruff_mineral_vibradit_ir_seed2",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_ir_seed2",
-    "checkpoint_sha256": "6e5ac0d857687a8e7e657ae891fd5192cf126e16246192c8178fb88bddb8c333",
-    "epoch": 15,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.1530659945374006,
-      "mae": 0.19826039987112815,
-      "r2": -0.5533820235943119,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "14b0fa8162f47e49f708331d5c0adcce6888a6e5f7c88d27b2bc7769c66e762b"
-  },
-  {
-    "task": "rruff_mineral_vibradit_raman_seed2",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_raman_seed2",
-    "checkpoint_sha256": "16ea9c8af465f401f8d545e21e1f17aa8c64f0779cadf9943538c03025bd93fc",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.15015992388010188,
-      "mae": 0.1909430024678797,
-      "r2": -1.0701811845505498,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "14b0fa8162f47e49f708331d5c0adcce6888a6e5f7c88d27b2bc7769c66e762b"
-  },
-  {
-    "task": "rruff_mineral_pe_ir_seed2",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_ir_seed2",
-    "checkpoint_sha256": "fb2fbc9fafe3a2deb1ad1dddf3672892599e77326263d37adeead41e742eeee7",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.1725682423805082,
-      "mae": 0.2146087144970297,
-      "r2": -0.8626585463615074,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "fa1d5a147306ed234082e99788c47bbe90de14fd7a3ffec67f5026b7c37df2c5"
-  },
-  {
-    "task": "rruff_mineral_pe_raman_seed2",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_raman_seed2",
-    "checkpoint_sha256": "07d5e8b81b54fcd4004d2aecd9c4a33b3af351537a4244d9eab4a3ec6e7ab9e9",
-    "epoch": 30,
-    "weights": "ema",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.2181926758786677,
-      "mae": 0.27492387177873073,
-      "r2": -2.2837285047487232,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "fa1d5a147306ed234082e99788c47bbe90de14fd7a3ffec67f5026b7c37df2c5"
-  },
-  {
-    "task": "rruff_mineral_cnn_ir_seed2",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_ir_seed2",
-    "checkpoint_sha256": "fac2cb624aea2105451545e6cf62f0297a7f0e0da47dad223c6b4618c0901da9",
-    "epoch": 20,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.1527945330658645,
-      "mae": 0.19547311185089325,
-      "r2": -0.5537601962263367,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "b75c9b8d516efef1426d345474c57674efb7b1a2883eb128fea7dc27e00fccad"
-  },
-  {
-    "task": "rruff_mineral_cnn_raman_seed2",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_raman_seed2",
-    "checkpoint_sha256": "3cac636c50320444bfdd03dc99e2e39a521cbb254fb2dbea30829cde9fb7c9a4",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.14839346971882578,
-      "mae": 0.18780944175613945,
-      "r2": -1.0247760510065627,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "b75c9b8d516efef1426d345474c57674efb7b1a2883eb128fea7dc27e00fccad"
-  },
-  {
-    "task": "rruff_vibradit_ir_seed3",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_ir_seed3",
-    "checkpoint_sha256": "f4039f223787bf8768dfadb23845610b81d65612d28fa81f0ed95ed26759a613",
-    "epoch": 20,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.1478176674813191,
-      "mae": 0.1917334532793028,
-      "r2": -0.611607017969959,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "ccc5ade885d900e0aab69ec683eae82e9c03dee331c7f694448652d40df00c7c"
-  },
-  {
-    "task": "rruff_vibradit_raman_seed3",
-    "original_run": "phase14/runs/rruff_primary_vibradit1_raman_seed3",
-    "checkpoint_sha256": "0635941cacb56734e017dee714b63fe93645983879d86011f21987b0c69b6c22",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.11852232358700367,
-      "mae": 0.15593595983768269,
-      "r2": -2.411392058731408,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "ccc5ade885d900e0aab69ec683eae82e9c03dee331c7f694448652d40df00c7c"
-  },
-  {
-    "task": "rruff_pe_ir_seed3",
-    "original_run": "phase14/runs/rruff_primary_pe1_ir_seed3",
-    "checkpoint_sha256": "8d670cddfed0c74356786338673b9b1529b083e30c4d4872a1c0331bb4f46e5c",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.15211276301713406,
-      "mae": 0.19404392221930247,
-      "r2": -0.7940634854821074,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8b2c454d67404502875312327f67f84aafe6ceb9a8a9c0a96da8f03d35e4037c"
-  },
-  {
-    "task": "rruff_pe_raman_seed3",
-    "original_run": "phase14/runs/rruff_primary_pe1_raman_seed3",
-    "checkpoint_sha256": "5d76dc89592f7a6bbf653008a3779fac6962e8fb1498faaf45cac0f09940f3db",
-    "epoch": 20,
-    "weights": "ema",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.17438555574660056,
-      "mae": 0.2280834958839735,
-      "r2": -3.4995845665373824,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8b2c454d67404502875312327f67f84aafe6ceb9a8a9c0a96da8f03d35e4037c"
-  },
-  {
-    "task": "rruff_cnn_ir_seed3",
-    "original_run": "phase14/runs/rruff_primary_cnn1_ir_seed3",
-    "checkpoint_sha256": "c1c8bb7ca078d2291f4132e30bb3ff1120aebcb084ab3386c968f12b89f5db4f",
-    "epoch": 10,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.15042260989981407,
-      "mae": 0.1930705540243189,
-      "r2": -0.7635511122383266,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "e75d0a1a22743b118624936535576ba0eb8d357e08bc952c8bc92d91e9f549c5"
-  },
-  {
-    "task": "rruff_cnn_raman_seed3",
-    "original_run": "phase14/runs/rruff_primary_cnn1_raman_seed3",
-    "checkpoint_sha256": "1e2fe0781c980bc5ad10c778d451772b38375b448658c7e3008fe1fded6e518b",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.11058958111493665,
-      "mae": 0.14426695380823953,
-      "r2": -2.4001294856741753,
-      "n": 94
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "e75d0a1a22743b118624936535576ba0eb8d357e08bc952c8bc92d91e9f549c5"
-  },
-  {
-    "task": "rruff_mineral_vibradit_ir_seed3",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_ir_seed3",
-    "checkpoint_sha256": "640507abc867007973c32ceba36f4b2c79bd5b2d1f0e5356a8984c0d1af4c13a",
-    "epoch": 10,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.15609872946128978,
-      "mae": 0.20079491949737321,
-      "r2": -0.5558945681911232,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "ccc5ade885d900e0aab69ec683eae82e9c03dee331c7f694448652d40df00c7c"
-  },
-  {
-    "task": "rruff_mineral_vibradit_raman_seed3",
-    "original_run": "phase14/runs/rruff_mineral_primary_vibradit1_raman_seed3",
-    "checkpoint_sha256": "b203e083d06bb4e9f15edd99778666c23fa31f938bdcc865dd98ea4727900a26",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 22838788,
-    "validation": {
-      "elastic": 0.15897152288153263,
-      "mae": 0.20147804030689098,
-      "r2": -1.1421366140655398,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "ccc5ade885d900e0aab69ec683eae82e9c03dee331c7f694448652d40df00c7c"
-  },
-  {
-    "task": "rruff_mineral_pe_ir_seed3",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_ir_seed3",
-    "checkpoint_sha256": "befcd7dd40abfaeac1e915dc0a7592a49b4537896a9de28dc867959291a856df",
-    "epoch": 20,
-    "weights": "raw",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.16454246071784304,
-      "mae": 0.20660037595915598,
-      "r2": -0.7095934130137211,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8b2c454d67404502875312327f67f84aafe6ceb9a8a9c0a96da8f03d35e4037c"
-  },
-  {
-    "task": "rruff_mineral_pe_raman_seed3",
-    "original_run": "phase14/runs/rruff_mineral_primary_pe1_raman_seed3",
-    "checkpoint_sha256": "d7cc381ff730627594d8f1d2e1a9e8bdd90ef534f78e86a46c0f01f1ea53bbdf",
-    "epoch": 20,
-    "weights": "ema",
-    "parameters": 14201092,
-    "validation": {
-      "elastic": 0.2137891941250607,
-      "mae": 0.2739365708302177,
-      "r2": -2.0490794980458973,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "8b2c454d67404502875312327f67f84aafe6ceb9a8a9c0a96da8f03d35e4037c"
-  },
-  {
-    "task": "rruff_mineral_cnn_ir_seed3",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_ir_seed3",
-    "checkpoint_sha256": "bbb517582ad4b309a0dda3a0cc5f66d8d9e561c18026189856e29201f5fa054c",
-    "epoch": 25,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.15258288950539767,
-      "mae": 0.19598201152126637,
-      "r2": -0.5616806125123313,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "e75d0a1a22743b118624936535576ba0eb8d357e08bc952c8bc92d91e9f549c5"
-  },
-  {
-    "task": "rruff_mineral_cnn_raman_seed3",
-    "original_run": "phase14/runs/rruff_mineral_primary_cnn1_raman_seed3",
-    "checkpoint_sha256": "f2cc9e33c68c18f37cd5786d374f535a328bb5a558d09b2788283694e498a017",
-    "epoch": 30,
-    "weights": "raw",
-    "parameters": 7101700,
-    "validation": {
-      "elastic": 0.1458721354187343,
-      "mae": 0.18549790898413931,
-      "r2": -0.971337702719951,
-      "n": 154
-    },
-    "torch_version": "2.7.0a0+ecf3bae40a.nv25.02",
-    "original_initial_state_sha256": "e75d0a1a22743b118624936535576ba0eb8d357e08bc952c8bc92d91e9f549c5"
   }
 ]

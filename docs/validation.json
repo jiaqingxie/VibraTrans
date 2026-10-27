@@ -1,0 +1,12 @@
+{
+  "unit_tests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "lint": "passed",
+  "original_campaign_equivalence": "docs/refactor_verification.json",
+  "synthetic_demo": "docs/demo_verification.json",
+  "real_checkpoint_demo": "docs/pretrained_verification.json",
+  "inference_weight_export": "docs/checkpoint_export_verification.json",
+  "data_preparation": "docs/data_preparation_verification.json"
+}

@@ -1,0 +1,352 @@
+{
+  "qm9s": {
+    "source_version": "Figshare 24235333 version 3",
+    "source_url": "https://figshare.com/articles/dataset/QM9S_dataset/24235333",
+    "pairing": "same zero-based IR/Raman matrix row; author qm9s.pt list order supplies molecular identity",
+    "length": 3501,
+    "source_provenance": [
+      {
+        "id": 43011226,
+        "name": "ir_boraden.csv",
+        "size": 8733673295,
+        "is_link_only": false,
+        "download_url": "https://ndownloader.figshare.com/files/43011226",
+        "supplied_md5": "d6962635a83e650804f8c00397af1d46",
+        "computed_md5": "d6962635a83e650804f8c00397af1d46",
+        "mimetype": "undefined",
+        "sha256": "078061df9977146821d7e432ee36dcc5f495d533bb9c7dd5f3340b18bcae073c",
+        "verified_md5": "d6962635a83e650804f8c00397af1d46"
+      },
+      {
+        "id": 42544561,
+        "name": "qm9s_csv.zip",
+        "size": 3716855812,
+        "is_link_only": false,
+        "download_url": "https://ndownloader.figshare.com/files/42544561",
+        "supplied_md5": "f96122b4f7792477af7d128c68a56a3b",
+        "computed_md5": "f96122b4f7792477af7d128c68a56a3b",
+        "mimetype": "application/zip",
+        "sha256": "83d016231c0860643f9216f2af26f0867f2572556aa0134c511ad03ad6849b79",
+        "verified_md5": "f96122b4f7792477af7d128c68a56a3b"
+      },
+      {
+        "id": 43011415,
+        "name": "raman_boraden.csv",
+        "size": 8784506743,
+        "is_link_only": false,
+        "download_url": "https://ndownloader.figshare.com/files/43011415",
+        "supplied_md5": "370141a1be8f1259c07b4cbbe9164d90",
+        "computed_md5": "370141a1be8f1259c07b4cbbe9164d90",
+        "mimetype": "undefined",
+        "sha256": "dbe1cecb1b895bba38cf214708fcd6bd17625baa5faa5bb148af2cd9ac752cca",
+        "verified_md5": "370141a1be8f1259c07b4cbbe9164d90"
+      },
+      {
+        "id": 43724400,
+        "name": "readme.txt",
+        "size": 3944,
+        "is_link_only": false,
+        "download_url": "https://ndownloader.figshare.com/files/43724400",
+        "supplied_md5": "975a6fa5b2a7069ff4d1c3df243f2bf4",
+        "computed_md5": "975a6fa5b2a7069ff4d1c3df243f2bf4",
+        "mimetype": "text/plain",
+        "sha256": "18f7d673280e1d1719ee4f53a61dce7d012a9e05d658908b759b4b53b19c04a0",
+        "verified_md5": "975a6fa5b2a7069ff4d1c3df243f2bf4"
+      }
+    ]
+  },
+  "qme14s": {
+    "source_version": "Figshare shared item 28260197, files 51890792/51890552",
+    "source_url": "https://figshare.com/s/889262a4e999b5c9a5b3",
+    "pairing": "matching numeric filename IDs and matching canonical SMILES in both modalities",
+    "length": 3500,
+    "source_provenance": [
+      {
+        "id": 51890792,
+        "name": "IR_broaden.zip",
+        "size": 3204920671,
+        "download_url": "https://ndownloader.figshare.com/files/51890792?private_link=889262a4e999b5c9a5b3",
+        "computed_md5": "abfec5e7f50fde12aa68c379046a205b",
+        "sha256": "da2f45ece947ecf074d193cb12760cba9deab2b2a961fd9bd20dcbcc7177a65e",
+        "verified_md5": "abfec5e7f50fde12aa68c379046a205b"
+      },
+      {
+        "id": 51867608,
+        "name": "README.txt",
+        "size": 5838,
+        "download_url": "https://ndownloader.figshare.com/files/51867608?private_link=889262a4e999b5c9a5b3",
+        "computed_md5": "6a5eff6ffce9d03d75c9d2d02f7de58a",
+        "sha256": "0b2c8db2fb527ea009265f3612492ccad7072b1e546c4da683c00a674d619c91",
+        "verified_md5": "6a5eff6ffce9d03d75c9d2d02f7de58a"
+      },
+      {
+        "id": 51890552,
+        "name": "Raman_broaden.zip",
+        "size": 6133888604,
+        "download_url": "https://ndownloader.figshare.com/files/51890552?private_link=889262a4e999b5c9a5b3",
+        "computed_md5": "c88d3d691c5b5c6441db830ce9d0d7fd",
+        "sha256": "9889110ddc07f3599bca54f4fb61f89b7035b8bdbbba7238d1e03bbf51ad354e",
+        "verified_md5": "c88d3d691c5b5c6441db830ce9d0d7fd"
+      },
+      {
+        "id": 51867602,
+        "name": "read_dataset.py",
+        "size": 12052,
+        "download_url": "https://ndownloader.figshare.com/files/51867602?private_link=889262a4e999b5c9a5b3",
+        "computed_md5": "bef6e4898867fb542b054c78c15c057d",
+        "sha256": "de0606c8fe19ebfe085172301a6c50556c2a829c5d766740282439ec78a27607",
+        "verified_md5": "bef6e4898867fb542b054c78c15c057d"
+      }
+    ]
+  },
+  "vibench_full": [
+    {
+      "domain": "geom",
+      "original_manifest": {
+        "source_version": "Figshare 28579832 version 2",
+        "ir_key": "q_ir",
+        "raman_key": "q_raman",
+        "rows": 5659,
+        "length": 1024,
+        "unique_canonical_smiles": 5659,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 54272948,
+          "name": "geom_test.lmdb",
+          "size": 208863232,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/54272948",
+          "supplied_md5": "b93ef30c73cb369c8bc04bfa4922b54a",
+          "computed_md5": "b93ef30c73cb369c8bc04bfa4922b54a",
+          "mimetype": "application/octet-stream",
+          "sha256": "78672237eba2e5618237a6ca55e1d9cfccfa8a16c93aa1c2ef9eddb62b96541e",
+          "verified_md5": "b93ef30c73cb369c8bc04bfa4922b54a"
+        },
+        "molecules_sha256": "e1a0b69b9c4c8f62a40af278b9806907573e46e1a9832987d81f4c21072cec34"
+      }
+    },
+    {
+      "domain": "mols",
+      "original_manifest": {
+        "source_version": "figshare-28579832-v3",
+        "ir_key": "ir",
+        "raman_key": "raman",
+        "rows": 37570,
+        "length": 1024,
+        "unique_canonical_smiles": 37476,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 68403160,
+          "name": "mols_test.lmdb",
+          "size": 771104768,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/68403160",
+          "supplied_md5": "a4e6b32ce96b2d5117131dd13e49c865",
+          "computed_md5": "a4e6b32ce96b2d5117131dd13e49c865",
+          "mimetype": "application/octet-stream",
+          "sha256": "226fcf81262076a404274a39d20f91aa900726f7de4a514f0dd177b90e8a1ced",
+          "verified_md5": "a4e6b32ce96b2d5117131dd13e49c865"
+        },
+        "molecules_sha256": "6f34cb2e2f5aeca452a5eaea70082d386db9f5a7c7b4a9bc2368ab228ccffdad"
+      }
+    },
+    {
+      "domain": "nist_ir",
+      "original_manifest": {
+        "source_version": "Figshare 28579832 version 2",
+        "ir_key": "ir",
+        "raman_key": "raman",
+        "rows": 2588,
+        "length": 1024,
+        "unique_canonical_smiles": 2490,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 54272933,
+          "name": "nist_ir_test.lmdb",
+          "size": 63721472,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/54272933",
+          "supplied_md5": "d6bb35c754c95235f20f2a7f8bb0f5a2",
+          "computed_md5": "d6bb35c754c95235f20f2a7f8bb0f5a2",
+          "mimetype": "application/octet-stream",
+          "sha256": "af497652792041ae96a3e38e6fb3172907c99b348737e04fbec9ea24dd492a74",
+          "verified_md5": "d6bb35c754c95235f20f2a7f8bb0f5a2"
+        },
+        "molecules_sha256": "9cc90d0d2def0c559af1149016477525e4cd9b009158d6244509893dd048e02a"
+      }
+    },
+    {
+      "domain": "pahs",
+      "original_manifest": {
+        "source_version": "Figshare 28579832 version 2",
+        "ir_key": "ir",
+        "raman_key": "raman",
+        "rows": 860,
+        "length": 1024,
+        "unique_canonical_smiles": 850,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 54272927,
+          "name": "pahs_test.lmdb",
+          "size": 17661952,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/54272927",
+          "supplied_md5": "8cf43d7973be8daa3929a8cb5917df9f",
+          "computed_md5": "8cf43d7973be8daa3929a8cb5917df9f",
+          "mimetype": "application/octet-stream",
+          "sha256": "fa9019dd89957fdb6f1c19e95d57d9160524a1326429c4d67147af0a75a82a91",
+          "verified_md5": "8cf43d7973be8daa3929a8cb5917df9f"
+        },
+        "molecules_sha256": "3d48f44bfbbe396991e5973c6e5e4eeadacee0379449b3d4c7a8dd54b195f6e0"
+      }
+    },
+    {
+      "domain": "peptide",
+      "original_manifest": {
+        "source_version": "Figshare 28579832 version 2",
+        "ir_key": "ir",
+        "raman_key": "raman",
+        "rows": 5191,
+        "length": 1024,
+        "unique_canonical_smiles": 5186,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 54272942,
+          "name": "peptide_test.lmdb",
+          "size": 106541056,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/54272942",
+          "supplied_md5": "b454458d0b41ba2a568e2405f7a582ff",
+          "computed_md5": "b454458d0b41ba2a568e2405f7a582ff",
+          "mimetype": "application/octet-stream",
+          "sha256": "5e2b867b79657ec2b5bbbd3c3ca05f7a23e005832f980a3c92a0c9eaf714cfe3",
+          "verified_md5": "b454458d0b41ba2a568e2405f7a582ff"
+        },
+        "molecules_sha256": "9962c1264f1e9ccf7799761fff050644dca25774616726bd2c5294a7e104d5d1"
+      }
+    },
+    {
+      "domain": "peptide_mod",
+      "original_manifest": {
+        "source_version": "Figshare 28579832 version 2",
+        "ir_key": "ir",
+        "raman_key": "raman",
+        "rows": 2511,
+        "length": 1024,
+        "unique_canonical_smiles": 2510,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 54272930,
+          "name": "peptide_mod_test.lmdb",
+          "size": 51544064,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/54272930",
+          "supplied_md5": "aca69245f9e3c9f345f5c0cbe6a68b72",
+          "computed_md5": "aca69245f9e3c9f345f5c0cbe6a68b72",
+          "mimetype": "application/octet-stream",
+          "sha256": "e2631ad7d8d153543c1bc57778fe1eef433dbfd7089d2d0caabb7945111e572f",
+          "verified_md5": "aca69245f9e3c9f345f5c0cbe6a68b72"
+        },
+        "molecules_sha256": "4310baf2b341152a8e6e863df8ccd75d4ae4c3d6f344c5b2617fd5e0bbb83328"
+      }
+    },
+    {
+      "domain": "qm9",
+      "original_manifest": {
+        "source_version": "Figshare 28579832 version 2",
+        "ir_key": "ir",
+        "raman_key": "raman",
+        "rows": 26687,
+        "length": 1024,
+        "unique_canonical_smiles": 26683,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 54272957,
+          "name": "qm9_test.lmdb",
+          "size": 547737600,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/54272957",
+          "supplied_md5": "8e234b16a2a873d2814a44fb7383afae",
+          "computed_md5": "8e234b16a2a873d2814a44fb7383afae",
+          "mimetype": "application/octet-stream",
+          "sha256": "2fc3562f55801375df41465fdfcab6948694aa8c587d38bee37dccff5074cf40",
+          "verified_md5": "8e234b16a2a873d2814a44fb7383afae"
+        },
+        "molecules_sha256": "7c5f5b1cb877030061443e93435a1a1e6f92219b69bb5c2d9909db51e50d8a57"
+      }
+    },
+    {
+      "domain": "zinc15",
+      "original_manifest": {
+        "source_version": "Figshare 28579832 version 2",
+        "ir_key": "ir",
+        "raman_key": "raman",
+        "rows": 10883,
+        "length": 1024,
+        "unique_canonical_smiles": 10883,
+        "invalid_smiles": 0,
+        "constant_spectra": {
+          "ir": 0,
+          "raman": 0
+        },
+        "axis": "ordered index; physical range requires source metadata",
+        "normalization": "raw values stored; min-max normalization at model input",
+        "source_provenance": {
+          "id": 54272951,
+          "name": "zinc15_test.lmdb",
+          "size": 223363072,
+          "is_link_only": false,
+          "download_url": "https://ndownloader.figshare.com/files/54272951",
+          "supplied_md5": "76772eba2b6b0d16363e4a2506afb94c",
+          "computed_md5": "76772eba2b6b0d16363e4a2506afb94c",
+          "mimetype": "application/octet-stream",
+          "sha256": "63c8a85b41a5b66b86a9ea2533197413f30c70839ec14583767152fdc7d87e55",
+          "verified_md5": "76772eba2b6b0d16363e4a2506afb94c"
+        },
+        "molecules_sha256": "314be58b25f685a5440a6ab86cbd9bed9752725444840ff0adc9534dc3cb79e9"
+      }
+    }
+  ]
+}

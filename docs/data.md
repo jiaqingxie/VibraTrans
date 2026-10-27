@@ -1,70 +1,95 @@
-# Data preparation and layout
+# Data sources, preparation and exact row order
 
-The current models use paired arrays in **physical spectral order**, without the
-old square-patch permutation. The package normalizes each source and target
-independently by `(x - min(x)) / (max(x) - min(x) + 1e-8)` at access time.
-Only the observed source is needed for prediction.
+The small runnable examples require no full dataset. Full benchmark replication
+uses original third-party releases; spectra are not redistributed in bulk here.
+The recorded URLs, source versions, checksums and LMDB field names are in
+[`raw_sources.json`](raw_sources.json). Prepared-array hashes and exact splits
+are in [`datasets.json`](datasets.json). Source licensing remains with each provider.
 
-Place processed arrays outside the repository, or under its ignored `data/`
-directory:
+## Prepare QM9S and QMe14S
+
+Install conversion dependencies: `pip install -e '.[data]'`.
+
+- QM9S: [Figshare version 3](https://doi.org/10.6084/m9.figshare.24235333.v3).
+  Download `qm9s.pt`, `ir_boraden.csv` and `raman_boraden.csv` into `raw/qm9s/`.
+  Preserve the original filenames (including `boraden`). The broadened matrices
+  follow the author's PT list order; the separate CSV archive is not that row map.
+- QMe14S: [the authors' shared release](https://figshare.com/s/889262a4e999b5c9a5b3).
+  Download `IR_broaden.zip` and `Raman_broaden.zip` into `raw/qme14s/`.
+  Conversion pairs numeric filename IDs and checks molecular identity in both modalities.
+
+```bash
+python tools/prepare_original.py --dataset qm9s --raw raw/qm9s --output data/qm9s
+python tools/prepare_original.py --dataset qme14s --raw raw/qme14s --output data/qme14s
+```
+
+These conversion scripts preserve the experiment's array generation logic.
+They retain native spectral bins and store raw float32 values. The QM9S PT and
+ViBench LMDB files use their authors' serialized object formats; use the exact
+provider files and verify their recorded checksums before conversion.
+
+## Prepare ViBench-Full
+
+The paper reconstructs a 91,949-row collection from eight released components
+in the order below. It does not claim byte identity with the authors' HDF5 file.
+Download each source LMDB listed in `raw_sources.json`, preserving its filename.
+For each row, run the converter with the indicated keys and source version:
+
+```bash
+python tools/prepare_lmdb.py --input raw/vibench/geom_test.lmdb --output prepared/geom --ir-key q_ir --raman-key q_raman --source-version 'Figshare 28579832 version 2'
+```
+
+| Output domain | Original filename | IR key | Raman key | Source version |
+|---|---|---|---|---|
+| geom | [geom_test.lmdb](https://ndownloader.figshare.com/files/54272948) | `q_ir` | `q_raman` | Figshare 28579832 version 2 |
+| mols | [mols_test.lmdb](https://ndownloader.figshare.com/files/68403160) | `ir` | `raman` | figshare-28579832-v3 |
+| nist_ir | [nist_ir_test.lmdb](https://ndownloader.figshare.com/files/54272933) | `ir` | `raman` | Figshare 28579832 version 2 |
+| pahs | [pahs_test.lmdb](https://ndownloader.figshare.com/files/54272927) | `ir` | `raman` | Figshare 28579832 version 2 |
+| peptide | [peptide_test.lmdb](https://ndownloader.figshare.com/files/54272942) | `ir` | `raman` | Figshare 28579832 version 2 |
+| peptide_mod | [peptide_mod_test.lmdb](https://ndownloader.figshare.com/files/54272930) | `ir` | `raman` | Figshare 28579832 version 2 |
+| qm9 | [qm9_test.lmdb](https://ndownloader.figshare.com/files/54272957) | `ir` | `raman` | Figshare 28579832 version 2 |
+| zinc15 | [zinc15_test.lmdb](https://ndownloader.figshare.com/files/54272951) | `ir` | `raman` | Figshare 28579832 version 2 |
+
+```bash
+python tools/merge_vibench.py --prepared-root prepared --output data/vibench_full
+```
+
+This uses the same source order and float32 concatenation as the original
+campaign. No interpolation, extra normalization or axis reinterpretation occurs.
+
+## Verify and use the recorded splits
 
 ```text
-/path/to/data/
-  qm9s/          ir.npy, raman.npy
-  qme14s/        ir.npy, raman.npy
-  vibench_full/  ir.npy, raman.npy
-  rruff/         ir.npy, raman.npy
+data/qm9s/          ir.npy, raman.npy
+data/qme14s/        ir.npy, raman.npy
+data/vibench_full/  ir.npy, raman.npy
 ```
-
-Each file is a finite numeric `N × L` NumPy array. Rows must represent the same
-molecular identity or measured record in both modalities. Shape equality alone
-does not establish alignment. The paper's row order must be preserved when using
-the published split files; these indices must not be applied to a reordered
-collection.
-
-| Collection | Bins | Coordinate convention |
-|---|---:|---|
-| QM9S | 3,501 | Explicit 500–4,000 cm⁻¹ grid |
-| QMe14S | 3,500 | Native ordered bins; a complete physical coordinate array was not verified |
-| ViBench-Full | 1,024 | Native ordered bins; documented reconstructed collection |
-| RRUFF | 576 | Paired measured spectra interpolated to 500–4,000 cm⁻¹, retaining measured boundary anchors |
-
-Dataset arrays are not included in this repository. Obtain the underlying
-datasets from their original providers and preserve the preparation and row
-alignment described by the manuscript. This release provides the processed-array
-interface and the exact recorded split files; it does not claim a universal
-raw-file download/conversion pipeline. The [dataset manifest](datasets.json)
-records array checksums, lengths, split checksums and partition counts.
-
-Seven protocols are provided: `qm9s`, `qme14s`, `vibench_full`,
-`qm9s_scaffold`, `qme14s_scaffold`, `rruff` and `rruff_mineral`.
-Scaffold protocols share their parent collection's arrays. RRUFF protocols
-share the same paired array. Where present, calibration indices are separate
-from training, validation and test and are not used for checkpoint selection.
-
-Check dimensions, row bounds, disjoint partitions and the split checksum:
 
 ```bash
-vibradit verify-data --task qm9s_vibradit_ir_seed0 --data-root /path/to/data
+vibratrans verify-data --task qm9s_vibratrans_ir_seed0 --data-root data --full-hash
+vibratrans verify-data --task qme14s_vibratrans_ir_seed0 --data-root data --full-hash
+vibratrans verify-data --task vibench_full_vibratrans_ir_seed0 --data-root data --full-hash
 ```
 
-Also verify both full array checksums before reproducing a reported run:
+Full hashes must match before describing a run as reproducing the recorded
+protocol. Exact split indices must never be applied to reordered arrays.
+Scaffold tasks share the parent collection's arrays. Calibration rows in the
+scaffold files are excluded from training/validation/test and checkpoint selection.
 
-```bash
-vibradit verify-data --task qm9s_vibradit_ir_seed0 \
-  --data-root /path/to/data --full-hash
-```
+QM9S has 3,501 bins on the verified 500–4,000 cm⁻¹ inclusive axis; QMe14S has
+3,500 native ordered bins with an unverified physical endpoint convention;
+ViBench-Full has 1,024 native bins with unresolved complete physical coordinates.
+The model independently normalizes source and target by
+`(x-min(x))/(max(x)-min(x)+1e-8)` when reading each spectrum.
 
-The split names, array hashes and QC rules are part of the experiment. In
-particular, the QMe14S identity split is distinct from a connectivity-exclusion
-analysis. Computed collections overlap chemically; they are not independent
-samples of chemical space.
+The three computed collections overlap chemically. QMe14S retains 472 test
+rows sharing connectivity with training or validation (419 with training),
+out of 27,693 test rows. The primary scores retain this original partition;
+the two scaffold protocols are separate evaluations.
 
 ## Custom data
 
-Copy one entry in `configs/paper_tasks.json` into a separate task file. Supply
-your own `data_directory`, `split_file`, spectral `length`, split checksum and
-validation reference constants. Use disjoint `train`, `val` and `test` integer
-arrays in an `.npz` file. Relative split paths resolve from the parent of the
-configuration directory; an absolute split path is also accepted. Custom data
-must not be described as reproducing the paper's scores.
+Copy one primary task into your own JSON configuration. Supply its paired
+array directory, native length, disjoint integer train/val/test split, split
+SHA256 and validation-reference constants. Relative split paths resolve from
+the parent of the configuration directory. Custom runs are not paper replications.

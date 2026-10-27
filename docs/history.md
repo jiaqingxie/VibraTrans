@@ -1,6 +1,12 @@
 # Version history
 
-## Current: one-step VibraDiT
+## Current: VibraTrans 0.2.0 (27 October 2026)
+
+The public repository and Python package are renamed to VibraTrans. The current
+computed-molecule scope has 120 primary configurations and five protocols. The
+previous 168-configuration public tree, including its measured-mineral analysis,
+is preserved unchanged at `archive/vibradit-20261021` (commit
+`b0070f14ad55dc056a46bd0b4aaee997d7a56280`). No historical experiment is deleted.
 
 The default branch contains the one-step implementation, current configurations,
 results and five main figures. The architecture, parameter keys, loss definitions,
@@ -16,7 +22,7 @@ local experiment directories, datasets, checkpoints or manuscript worktree.
 ## Archived: multi-step SpectraFlow
 
 The previous GitHub tree is preserved at tag
-[`archive/spectraflow-20261003`](https://github.com/jiaqingxie/VibraDiT/tree/archive/spectraflow-20261003),
+[`archive/spectraflow-20261003`](https://github.com/jiaqingxie/VibraTrans/tree/archive/spectraflow-20261003),
 commit `88e29a72f8469123143fbd5f5fc8af01326352f1`.
 It includes the earlier model implementations, raw-data preparation utilities,
 manuscript snapshot and its reproduction audit.

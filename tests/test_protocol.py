@@ -6,13 +6,13 @@ import numpy as np
 import pytest
 import torch
 
-from vibradit.data import GlobalBatches, PairedArrays
-from vibradit.inference import evaluate, predict_file, load_checkpoint, normalize
-from vibradit.losses import objective
-from vibradit.metrics import per_sample_metrics
-from vibradit.model import build_model, predict
-from vibradit.runtime import configure_runtime, digest
-from vibradit.train import train
+from vibratrans.data import GlobalBatches, PairedArrays
+from vibratrans.inference import evaluate, predict_file, load_checkpoint, normalize
+from vibratrans.losses import objective
+from vibratrans.metrics import per_sample_metrics
+from vibratrans.model import build_model, predict
+from vibratrans.runtime import configure_runtime, digest
+from vibratrans.train import train
 
 
 @pytest.fixture
@@ -143,11 +143,11 @@ def test_normalization_and_undefined_metrics(experiment):
 def test_published_task_matrix_and_splits():
     root = Path(__file__).resolve().parents[1]
     tasks = json.loads((root / "configs/paper_tasks.json").read_text())
-    assert len(tasks) == 168
+    assert len(tasks) == 120
     keys = {
         (t["dataset"], t["config"]["architecture"], t["source"], t["seed"]) for t in tasks.values()
     }
-    assert len(keys) == 168
+    assert len(keys) == 120
     for split_file in {t["split_file"] for t in tasks.values()}:
         with np.load(root / split_file) as split:
             for a, b in [("train", "val"), ("train", "test"), ("val", "test")]:
@@ -162,7 +162,7 @@ def test_published_task_matrix_and_splits():
 
 def test_peak_matching_maximizes_cardinality():
     pytest.importorskip("rdkit")
-    from vibradit.analysis import matches
+    from vibratrans.analysis import matches
 
     # Greedy nearest-first can lose a match; the assignment must recover both.
     assert matches(np.array([0.0, 2.0]), np.array([1.0, 3.0]), tolerance=1).all()
@@ -171,7 +171,7 @@ def test_peak_matching_maximizes_cardinality():
 
 def test_ridge_test_targets_do_not_select_alpha():
     pytest.importorskip("rdkit")
-    from vibradit.analysis import ridge_grid
+    from vibratrans.analysis import ridge_grid
 
     rng = np.random.default_rng(12)
     x = rng.normal(size=(60, 8))

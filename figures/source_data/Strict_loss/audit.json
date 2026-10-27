@@ -1,0 +1,12 @@
+{
+  "audit_passed_for_completed_fits": true,
+  "complete": 102,
+  "numerically_diverged": [
+    "strict3_qm9s_vibradit_no_reconstruction_ir_seed1"
+  ],
+  "pending": [],
+  "paired_comparisons": 72,
+  "cpu_complete": 54,
+  "note": "Exploratory strict three-term ablation. Paired differences are descriptive; no test-based selection.",
+  "updated_unix": 1792862593.5597382
+}

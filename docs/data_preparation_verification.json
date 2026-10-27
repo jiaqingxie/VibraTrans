@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "check": "Portable ViBench merge reproduces both complete recorded array hashes",
+  "arrays_sha256": {
+    "ir": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+    "raman": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91"
+  }
+}

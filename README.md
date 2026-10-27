@@ -1,139 +1,108 @@
-# VibraDiT
+# VibraTrans
 
-**One-step translation between infrared and Raman spectra, with reusable molecular features.**
+**Vibrational Spectra Translator: one-step infrared–Raman translation and molecular representation learning.**
 
-VibraDiT predicts a complementary vibrational spectrum from an observed spectrum.
-Ordered spectral patches pass through eight adaptive Transformer blocks in a
-single network evaluation. The final tokens also provide frozen features for
-molecular-descriptor prediction. Molecular structures are not model inputs.
+VibraTrans predicts the complementary spectrum using only an input spectrum.
+The final Transformer tokens also provide frozen molecular features. Molecular
+structures are used for chemical interpretation and descriptor labels, not as
+inputs to the translator. The manuscript evaluates **calculated molecular
+spectra**; measured-spectrum deployment is not established by this release.
 
-[![VibraDiT overview](figures/Figure1.png)](figures/Figure1.pdf)
+[![VibraTrans](figures/Figure1.png)](figures/Figure1.pdf)
 
-**[Installation and usage](#quick-start) · [Main figures](#main-figures) ·
-[Data](docs/data.md) · [Reproduction](docs/reproduction.md) ·
-[Results](results/benchmark.csv)**
+## Install and run in minutes
 
-This repository contains the current **one-step VibraDiT** implementation
-and paper figures.
-The previous multi-step implementation and manuscript remain available in the
-[archived version](https://github.com/jiaqingxie/VibraDiT/tree/archive/spectraflow-20261003).
-
-## Quick start
-
-Use Python 3.10 or newer and a PyTorch installation suitable for your CPU or GPU.
+Python 3.10+ and PyTorch 2.4+ are required. The core package depends only on
+PyTorch and NumPy. A GPU is not needed for either example below.
 
 ```bash
-git clone https://github.com/jiaqingxie/VibraDiT.git
-cd VibraDiT
+git clone https://github.com/jiaqingxie/VibraTrans.git
+cd VibraTrans
 python -m venv .venv
 source .venv/bin/activate
+pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install -e .
+vibratrans demo --output-dir outputs/synthetic-demo
 ```
 
-The package includes VibraDiT, the position-aware Transformer baseline and the
-1D CNN baseline. Processed datasets and pretrained weights are **not bundled**;
-the [data guide](docs/data.md) specifies the required arrays and published splits.
+The offline demo generates small synthetic spectra, trains a reduced model for
+four optimizer updates, reloads its checkpoint, exports predictions and frozen
+features, and evaluates three held-out rows. Expected outputs are `(16, 83)`
+predictions, `(16, 24)` features and a passing `demo_report.json`. It takes a few
+seconds after installation on the tested CPU environment. **This checks the
+workflow; its scores are not paper results.** Use a fresh output directory.
 
-Train one of the 168 recorded dataset/model/direction/seed configurations:
+### Run the actual paper models
+
+Three fixed QM9S test examples and expected outputs are included. The example
+downloads the two seed-0 paper model weights (~183 MB total), verifies
+their SHA256 hashes, predicts in both directions and checks the outputs and
+frozen features against the supplied CPU references:
 
 ```bash
-vibradit list-tasks
-
-vibradit verify-data --task qm9s_vibradit_ir_seed0 --data-root /path/to/data
-
-vibradit train --task qm9s_vibradit_ir_seed0 \
-  --data-root /path/to/data --output-dir runs/qm9s_vibradit_ir_seed0 --device cuda
+python examples/run_pretrained.py --download --output-dir outputs/qm9s-demo
 ```
 
-Predict from an `N × L` NumPy array of spectra in their original spectral order.
-The checkpoint determines the translation direction. This example also exports
-the frozen final-block features from the same evaluation:
+For an offline run, place the two `.pt` assets from the
+[v0.2.0 release](https://github.com/jiaqingxie/VibraTrans/releases/tag/v0.2.0)
+in `checkpoints/` and omit `--download`. These are the first three rows in the
+fixed test split, not selected success cases. See [example provenance](examples/qm9s/README.md).
+
+## Reproduce a benchmark run
+
+The release contains **120 primary task configurations**: three architectures,
+two directions and four seeds in each of three molecular datasets and two
+scaffold holdouts. Full arrays are obtained from their original providers using
+the [data preparation guide](docs/data.md); exact splits and array hashes are
+included. Use a CUDA-enabled PyTorch installation for full training.
 
 ```bash
-vibradit predict --checkpoint runs/qm9s_vibradit_ir_seed0/best.pt \
-  --input observed_ir.npy --output outputs/predicted_raman.npy \
-  --features-output outputs/features.npy --device cuda
+vibratrans list-tasks
+vibratrans verify-data --task qm9s_vibratrans_ir_seed0 --data-root /path/to/data --full-hash
+vibratrans train --task qm9s_vibratrans_ir_seed0 --data-root /path/to/data --output-dir runs/qm9s_ir_seed0 --device cuda
+vibratrans evaluate --task qm9s_vibratrans_ir_seed0 --data-root /path/to/data --checkpoint runs/qm9s_ir_seed0/best.pt --output-dir outputs/qm9s_test --device cuda
+vibratrans predict --checkpoint runs/qm9s_ir_seed0/best.pt --input observed_ir.npy --output outputs/predicted_raman.npy --features-output outputs/features.npy --device cpu
 ```
 
-Evaluate the selected checkpoint on its recorded test partition:
+Input arrays have shape `N × L` in native spectral order. Source and target are
+independently min–max normalized. No molecular structure or target spectrum is
+needed for `predict`. Training settings, baseline definitions and validation
+selection are in [reproduction.md](docs/reproduction.md).
 
-```bash
-vibradit evaluate --task qm9s_vibradit_ir_seed0 \
-  --checkpoint runs/qm9s_vibradit_ir_seed0/best.pt \
-  --data-root /path/to/data --output-dir outputs/qm9s_test --device cuda
-```
+## Results and source data
 
-Prediction and evaluation also support `--device cpu`. See the
-[reproduction guide](docs/reproduction.md) for training settings, checkpoint
-selection, descriptor analysis and the numerical checks performed during this
-code reorganization.
+- [All 120 primary per-seed results](results/benchmark.csv) and [checkpoint metadata](results/checkpoints.json).
+- [Five main figure PDFs](figures/) and [figure checksums](figures/manifest.json).
+- [Numerical source data](figures/source_data/) for main and supplementary analyses,
+  including reported strict loss-ablation outcomes and the numerical failure.
+- [Source-data index](figures/source_data/README.md) and [software review guide](docs/software-review.md).
 
-## Main figures
+Mean per-spectrum R² exceeds both primary baselines in all six primary
+dataset–direction settings. MAE comparisons with the Transformer are mixed.
+The computed datasets overlap chemically; QMe14S retains the documented
+connectivity overlap. Model development used previously inspected partitions.
+The supplementary three-term ablation is distinct from the final four-term recipe.
 
-These are the manuscript's five main figures. The PDFs are copied unchanged;
-the PNGs are browser previews. [Checksums](figures/manifest.json) and
-[numerical source tables](figures/source_data/) accompany them.
-
-### Figure 1 · Model and molecular features
-
-The overview above shows one-step prediction, source conditioning and frozen
-feature extraction. [Download PDF](figures/Figure1.pdf).
-
-### Figure 2 · Spectral reconstruction
-
-[![Reconstruction across spectral regions and molecular scaffolds](figures/Figure2.png)](figures/Figure2.pdf)
-
-Peak-region and full-spectrum accuracy, scaffold strata and fixed molecular
-examples. [PDF](figures/Figure2.pdf) · [Source data](figures/source_data/Figure2/)
-
-### Figure 3 · Chemical bands and frequency shifts
-
-[![Functional-group bands, carbonyl shifts and peak recovery](figures/Figure3.png)](figures/Figure3.pdf)
-
-Functional-group comparisons, carbonyl frequency shifts and recovery of target
-peaks with different source-signal strengths.
-[PDF](figures/Figure3.pdf) · [Source data](figures/source_data/Figure3/)
-
-### Figure 4 · Error analysis and held-out groups
-
-[![Chemical error analysis and held-out structural groups](figures/Figure4.png)](figures/Figure4.pdf)
-
-Errors by molecular group and peak height, scaffold holdouts and measured
-mineral spectra. [PDF](figures/Figure4.pdf) · [Source data](figures/source_data/Figure4/)
-
-### Figure 5 · Molecular-descriptor prediction
-
-[![Frozen features and molecular-descriptor prediction](figures/Figure5.png)](figures/Figure5.pdf)
-
-Representation visualizations, all ten descriptors and all six feature sets,
-with the original panel arrangement retained.
-[PDF](figures/Figure5.pdf) · [Source data](figures/source_data/Figure5/)
-
-## Repository layout
+## Package layout
 
 ```text
-src/vibradit/    model, baselines, training, inference and analysis
-configs/        168 paper tasks and seven fixed split files
-figures/        the five main figures and their numerical source tables
-results/        seed-level scores, summaries and checkpoint metadata
-docs/           data, reproduction and version notes
-tests/          training/inference and protocol checks
+src/vibratrans/  model, baselines, training, prediction, evaluation and CPU demo
+configs/        120 primary tasks and five fixed splits
+examples/       real QM9S test spectra, expected outputs and checkpoint example
+tools/          original-data preparation and ViBench concatenation
+results/        per-seed benchmark and selected-checkpoint metadata
+figures/        current main figures and numerical source data
+docs/           data sources, reproduction, software review and version history
+tests/          workflow and scientific-protocol checks
 ```
 
-The primary comparison covers three computed-spectrum collections, two
-translation directions and four seeds. VibraDiT has higher mean per-spectrum
-R² than both baselines in all six settings; MAE comparisons with the Transformer
-are mixed. Scaffold and RRUFF results are included in the
-[complete seed-level table](results/benchmark.csv).
+For development: `pip install -e '.[analysis,dev]'`, then `pytest -q` and
+`ruff check src tests examples`. The serialized architecture identifier
+`vibradit` is retained inside recorded tasks for checkpoint compatibility;
+the package, CLI, paper and repository are named **VibraTrans**.
 
-## Development
-
-```bash
-pip install -e '.[analysis,dev]'
-pytest -q
-ruff check src tests
-```
-
-The manuscript is under preparation. A publication citation will be added when
-available. [Version history](docs/history.md) records how this release relates
-to the earlier SpectraFlow code.
+The previous public version is preserved at
+[archive/vibradit-20261021](https://github.com/jiaqingxie/VibraTrans/tree/archive/vibradit-20261021),
+and the earlier SpectraFlow implementation at
+[archive/spectraflow-20261003](https://github.com/jiaqingxie/VibraTrans/tree/archive/spectraflow-20261003).
+See [version history](docs/history.md). The manuscript is under preparation.

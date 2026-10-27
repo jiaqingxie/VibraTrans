@@ -63,31 +63,5 @@
       "test": 26904
     },
     "length": 3500
-  },
-  "rruff": {
-    "directory": "rruff",
-    "split_file": "configs/splits/rruff.npz",
-    "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
-    "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-    "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-    "counts": {
-      "train": 1438,
-      "val": 94,
-      "test": 125
-    },
-    "length": 576
-  },
-  "rruff_mineral": {
-    "directory": "rruff",
-    "split_file": "configs/splits/rruff_mineral.npz",
-    "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
-    "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
-    "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
-    "counts": {
-      "train": 1223,
-      "val": 154,
-      "test": 215
-    },
-    "length": 576
   }
 }

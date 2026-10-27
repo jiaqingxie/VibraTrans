@@ -1,230 +1,40 @@
 {
-  "manuscript_commit": "e8bbde3",
+  "scientific_manuscript_commit": "b69dcb26e4428f7fb13d36a5fcd126d06c5c5349",
   "figures": [
     {
       "figure": 1,
       "pdf": "figures/Figure1.pdf",
-      "sha256": "42aad32ef5d9177f2cfa6390c0ebc686c8981d0da35f8613e5f7f5207b9b49e4",
-      "manuscript_path": "figs/results/Figure1_october.pdf",
+      "sha256": "10a64292aa24a8cfe3774f2e98731db2672d42da6f3dfaa535804969e5d9a1e1",
       "preview": "figures/Figure1.png",
-      "preview_sha256": "8cd105599f00b3b568bb77ebd17fc1b9d164a0c60dea2916c468ea27b78c20a5"
+      "preview_sha256": "f2c80e86845f861b605f91fe749fc5d79e4fb2eae5cd32bae667cbd46f9144f8"
     },
     {
       "figure": 2,
       "pdf": "figures/Figure2.pdf",
-      "sha256": "19c550223259df729bd95f0970a00c9a4dbee2d2a8f1afb2c3b2796f4cedbf05",
-      "manuscript_path": "figs/results/Figure2_october.pdf",
+      "sha256": "8d04f0cdbd8da2cc684eb9fa996f75482407695cb03780444cd8fa92e0b37817",
       "preview": "figures/Figure2.png",
-      "preview_sha256": "443284a967acc7a78b9b4c46ff0b6676b4daa5a9bb39a7cee51cdb0c89321db9"
+      "preview_sha256": "74adae121b3a8d5efc7b58fe0da5ec52ed6fd8db47803a149aa4d1849a97c4b5"
     },
     {
       "figure": 3,
       "pdf": "figures/Figure3.pdf",
-      "sha256": "ff7bc854a165f921583b24eb25713f68302e8f35f93b062bb35e0bb0afca59ef",
-      "manuscript_path": "figs/results/Figure3_october.pdf",
+      "sha256": "6e73ae2d53abf4e21525c3312f928efc8ec807fc5ae581e6073a63ede010abe4",
       "preview": "figures/Figure3.png",
-      "preview_sha256": "f91a436dc41612a44916023af15ca49efabc6538696c9fbde1ed6537d54559d2"
+      "preview_sha256": "760fd5bc52df7fe644c9a9a4ddea3b3adf046b29bd219a9ccb9a0b8837c2de65"
     },
     {
       "figure": 4,
       "pdf": "figures/Figure4.pdf",
-      "sha256": "a8b836c1591e9abfc7c9a73e583018b20411e22a2115ce5484d93541bafa9eb7",
-      "manuscript_path": "figs/results/Figure4_october.pdf",
+      "sha256": "3be36fe2a92ea69cd148f53a3b8e446e6d8a578fe17fd626132390e677df06bc",
       "preview": "figures/Figure4.png",
-      "preview_sha256": "0c8202e2eaf053224e5c19dd0231f02fa336ddf1ee3b7f53bcfd30c5e2657826"
+      "preview_sha256": "2f88121f3ec97c052d2994488baf1f9acd35bdc6b46ab100ea1f7306df163c3f"
     },
     {
       "figure": 5,
       "pdf": "figures/Figure5.pdf",
-      "sha256": "555e5cf7615ded17108cfa77182b0e77bffc2dbe6aeb5395fea57fb923a85622",
-      "manuscript_path": "figs/results/Figure5_october.pdf",
+      "sha256": "cc8a9b3e790197dca0d2f14a48455ca8410d85ca1f1b2f32973d0458f1b331fc",
       "preview": "figures/Figure5.png",
-      "preview_sha256": "1411bdf43d7e0db267c20faaefea0086f60f9804e52f67b13424451d31db4445"
-    }
-  ],
-  "source_data_note": "Numeric values are unchanged. Local dataset path strings in four Figure 5 tables are replaced by dataset identifiers.",
-  "source_data_metadata_changes": [
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_projection_molecules.csv",
-      "dataset_path_cells_replaced": 2000
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_d_logp_predictions.csv",
-      "dataset_path_cells_replaced": 10000
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_vibradit_coordinates.csv",
-      "dataset_path_cells_replaced": 2000
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_e_tpsa_predictions.csv",
-      "dataset_path_cells_replaced": 10000
-    }
-  ],
-  "source_data": [
-    {
-      "path": "figures/source_data/Figure2/peak_full_summary.csv",
-      "sha256": "0bcc413078c59d4651460ea765870e23668882a1d9c829684c2c8297fa10c882"
-    },
-    {
-      "path": "figures/source_data/Figure2/region_seed_metrics.csv",
-      "sha256": "b9cd9958f0a75bf3ac54bb3b2226ecbfbb3c212765527d60a8c717a2424452a6"
-    },
-    {
-      "path": "figures/source_data/Figure2/scaffold_groups.csv",
-      "sha256": "e5b6d13807d6420eba43105f963089e92e1139038b81a3fb77c7ad18436bf04b"
-    },
-    {
-      "path": "figures/source_data/Figure2/scaffold_seed_metrics.csv",
-      "sha256": "ba6680b45d64a5cef2c26aef2938acf0fc617dd038d3d99099e206c6196a63a0"
-    },
-    {
-      "path": "figures/source_data/Figure2/scaffold_summary.csv",
-      "sha256": "e6651160a31ba26cadca50543a23b775c08e1bd680bb233bcd26b0c2b512ee1b"
-    },
-    {
-      "path": "figures/source_data/Figure2/source_data/Figure2_e_spectra.csv",
-      "sha256": "91b9a1d2ce6dadc55b3c9a8332057df447aa3b971f0be779e774772ad3035e7e"
-    },
-    {
-      "path": "figures/source_data/Figure2/source_data/Figure2_f_spectra.csv",
-      "sha256": "daeb7e64455da2b0930f8427c808833fd67d3f989d07e87779cd65204af3aa1e"
-    },
-    {
-      "path": "figures/source_data/Figure2/source_data/Figure2_g_spectra.csv",
-      "sha256": "3169cb04ddbd9afd1e1579fcfd67a4e1e2717ad4964229318f8a29260d33f10a"
-    },
-    {
-      "path": "figures/source_data/Figure2/source_data/Figure2_h_spectra.csv",
-      "sha256": "9242c4137a297d40f6d9f158ceace2e652d9da7f924ce6a1e4e719629cdf2cd0"
-    },
-    {
-      "path": "figures/source_data/Figure2/source_data/Figure2_i_spectra.csv",
-      "sha256": "074d77ae6e94e2f8477db9c11f45af12446dad09b09d4ee273c966815f3f8079"
-    },
-    {
-      "path": "figures/source_data/Figure2/source_data/Figure2_j_spectra.csv",
-      "sha256": "eded95520134140212c07c7fcb2431e75607e0ec1de89c5941b6141440dcce20"
-    },
-    {
-      "path": "figures/source_data/Figure3/controls/example_spectra.csv",
-      "sha256": "64c0670ead5f3bb05646ccfac20a83184491dd63487e86c2092640489af44fe7"
-    },
-    {
-      "path": "figures/source_data/Figure3/controls/pair_shifts.csv",
-      "sha256": "4d4213b1d0bf386df898c9a0ca4c9aad7f28ee3aa95b1c592d8966ea392a5a69"
-    },
-    {
-      "path": "figures/source_data/Figure3/groups.csv",
-      "sha256": "c30961e27ea334fa46cf0bc1846b72665e2b030b06d6bfb09c0c3a03e2a42784"
-    },
-    {
-      "path": "figures/source_data/Figure3/pair_scatter.csv",
-      "sha256": "c52184360aa6b18f1e90037b3da360ba3c496429e2d3a125e72b50e2f707a41b"
-    },
-    {
-      "path": "figures/source_data/Figure3/peak_f1_seed_means.csv",
-      "sha256": "e60c0bbc8c2220f00f7120fcd4263379caded870d6a55db29b4ea190dd4d208a"
-    },
-    {
-      "path": "figures/source_data/Figure3/peak_f1_summary.csv",
-      "sha256": "20906140c4cc745aa42b2300e44c49d40f836a28c4f2d20b306fa9e39a092efe"
-    },
-    {
-      "path": "figures/source_data/Figure3/peak_intensity_summary.csv",
-      "sha256": "5815cf2daebfb6b8b7dbbcaa1929567fa9d05c310ea9b1f59fa270f10d1a07c1"
-    },
-    {
-      "path": "figures/source_data/Figure3/profiles.csv",
-      "sha256": "3c6ed9b84c8ef30d49d1d4e5898bac2ae54e9b5becc1edf758d9a04aad0ebaa7"
-    },
-    {
-      "path": "figures/source_data/Figure3/source_data/Figure3_peak_recovery.csv",
-      "sha256": "1f866206c0dcd7e3c63d27fcfddf149ff50bb591d342096e3ff0d3140b4f00a3"
-    },
-    {
-      "path": "figures/source_data/Figure4/group_actual_summary.csv",
-      "sha256": "0acdaa9ce8b61a4d342c48de460de1499888a51b133860260e7689e48ecc0f3d"
-    },
-    {
-      "path": "figures/source_data/Figure4/peak_intensity_summary.csv",
-      "sha256": "5815cf2daebfb6b8b7dbbcaa1929567fa9d05c310ea9b1f59fa270f10d1a07c1"
-    },
-    {
-      "path": "figures/source_data/Figure4/regional_summary.csv",
-      "sha256": "0dab22aeace88e939c3a9c5913af6b1c1cceaf487107630f4db3005fd45d8614"
-    },
-    {
-      "path": "figures/source_data/Figure4/scaffold_all_seed_values.csv",
-      "sha256": "97cc8cabc934692124aff9ab787b870592601bdba0fec50d455aa497ff996fb6"
-    },
-    {
-      "path": "figures/source_data/Figure4/source_data/Figure4_c_regional_errors.csv",
-      "sha256": "c9ed8bf1ad95bccb8c283cb21c0bb8b2d5bae678028d05d0182ceca4faaf1091"
-    },
-    {
-      "path": "figures/source_data/Figure4/source_data/Figure4_d_rruff.csv",
-      "sha256": "910e532eb5c53494099e2cf2327069c3962bc88759ea2c51cc9e3795b75aea37"
-    },
-    {
-      "path": "figures/source_data/Figure4/source_data/Figure4_e_ring_classes.csv",
-      "sha256": "633be31018fe0d0a53d3a0ee7f2cb92539680df54d5174d633569a19549a1b45"
-    },
-    {
-      "path": "figures/source_data/Figure4/source_data/experimental_a.csv",
-      "sha256": "f45cf7832740b5568987b51e0c0bec5e643ee05efc5703518231724345b56160"
-    },
-    {
-      "path": "figures/source_data/Figure4/source_data/experimental_e.csv",
-      "sha256": "a7ddb216a8b4b650f329e57dc8d440508b78a1bad60d014f5d47ad4bfd05f64f"
-    },
-    {
-      "path": "figures/source_data/Figure4/unrecovered_peak_summary.csv",
-      "sha256": "97b18831527cc55d93a9c7b189c22f26ffc54ee1ebeec44d7bf9f1a2a3b6833a"
-    },
-    {
-      "path": "figures/source_data/Figure5/bar_seed_values.csv",
-      "sha256": "3c4376507608e2f0e4d617d055e2487ed52e82ba2c40895174732ae9745ebf19"
-    },
-    {
-      "path": "figures/source_data/Figure5/bar_summary.csv",
-      "sha256": "a2b54d8ced562760efba382058819f12a9e3155460e76b809f1eae09586b57b9"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_c_probe_metrics.csv",
-      "sha256": "7dd5800dd63857c89402a6db980ccec0943be848e2314c7a335e99248918329a"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_d_logp_predictions.csv",
-      "sha256": "9b4d6da760aa570bdd7329420c981596756f6ada59b036c1ab04bd295a1f81f0"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_e_tpsa_predictions.csv",
-      "sha256": "9b4d6da760aa570bdd7329420c981596756f6ada59b036c1ab04bd295a1f81f0"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_f_within_dataset.csv",
-      "sha256": "b4818797a463e4dbd6de37c808955729e95b4bf00cd7f10b1d19046697987415"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_ir_coordinates.csv",
-      "sha256": "f4c8d4dbf6901f73ae2254a692f0865397b8a00cd471d5ec0380d3438bcb9296"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_projection_molecules.csv",
-      "sha256": "84823981b372a8eb18136aae0ffd9ac0e997638ef6dbc18ed1e74765e22745d3"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_raman_coordinates.csv",
-      "sha256": "f1b96fad70094a71e6c5781a6d65f2adc6a145e051b012a3fbd98ee85882bc9b"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_vae_coordinates.csv",
-      "sha256": "5d834ae4e910860530a4864a2983cee3625db56a737f97628d84ef711d9e96e9"
-    },
-    {
-      "path": "figures/source_data/Figure5/source_data/Figure5_vibradit_coordinates.csv",
-      "sha256": "260c876840d42bf1e10df916d9c5c5ba5958f557f35092ea4efe412f30bc060c"
+      "preview_sha256": "45c93857d18284ebcbc37a1dbc17b0bf4b83de5945a67300fe12ab5928c9c5d0"
     }
   ]
 }

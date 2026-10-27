@@ -38,7 +38,7 @@ def get_1d_sincos_pos_embed(num_patches: int, embed_dim: int) -> torch.Tensor:
 
 
 class SourceEncoder1D(nn.Module):
-    """Global source-spectrum encoder for VibraDiT conditioning."""
+    """Global source-spectrum encoder for VibraTrans conditioning."""
 
     def __init__(self, hidden_size: int):
         super().__init__()
@@ -85,7 +85,7 @@ def modulate_tokens(x: torch.Tensor, shift: torch.Tensor, scale: torch.Tensor) -
     return x * (1 + scale[:, None, :]) + shift[:, None, :]
 
 
-class VibraDiTBlock(nn.Module):
+class VibraTransBlock(nn.Module):
     """1D DiT block with adaLN-Zero conditioning."""
 
     def __init__(
@@ -119,7 +119,7 @@ class VibraDiTBlock(nn.Module):
         return x
 
 
-class VibraDiTFinalLayer(nn.Module):
+class VibraTransFinalLayer(nn.Module):
     """Final 1D DiT layer: tokens to velocity patches."""
 
     def __init__(self, hidden_size: int, patch_size: int):
@@ -138,7 +138,7 @@ class VibraDiTFinalLayer(nn.Module):
         return self.linear(x)
 
 
-class VibraDiTVelocityFieldNetwork(nn.Module):
+class VibraTransVelocityFieldNetwork(nn.Module):
     """
     Ordered one-dimensional spectral DiT with adaptive source conditioning.
 
@@ -161,7 +161,7 @@ class VibraDiTVelocityFieldNetwork(nn.Module):
     ):
         super().__init__()
         if in_channels != 1:
-            raise ValueError("VibraDiT backbone currently expects in_channels=1.")
+            raise ValueError("VibraTrans backbone currently expects in_channels=1.")
 
         self.in_channels = in_channels
         self.image_size = image_size
@@ -188,11 +188,11 @@ class VibraDiTVelocityFieldNetwork(nn.Module):
 
         self.blocks = nn.ModuleList(
             [
-                VibraDiTBlock(hidden_size, num_heads, mlp_ratio=mlp_ratio, dropout=dropout)
+                VibraTransBlock(hidden_size, num_heads, mlp_ratio=mlp_ratio, dropout=dropout)
                 for _ in range(depth)
             ]
         )
-        self.final_layer = VibraDiTFinalLayer(hidden_size, patch_size)
+        self.final_layer = VibraTransFinalLayer(hidden_size, patch_size)
 
     def _target_mode_tensor(self, x: torch.Tensor, target_mode) -> torch.Tensor:
         if target_mode is None:
@@ -207,7 +207,7 @@ class VibraDiTVelocityFieldNetwork(nn.Module):
         self, x: torch.Tensor, t: torch.Tensor, condition=None, target_mode=None
     ) -> torch.Tensor:
         if x.ndim != 4:
-            raise ValueError("VibraDiT backbone expects x with shape (B, C, H, W).")
+            raise ValueError("VibraTrans backbone expects x with shape (B, C, H, W).")
         if condition is None:
             condition = x
 

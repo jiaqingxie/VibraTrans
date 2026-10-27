@@ -3,14 +3,14 @@
 import torch
 from torch import nn
 
-from .backbone import VibraDiTVelocityFieldNetwork
+from .backbone import VibraTransVelocityFieldNetwork
 from .baselines import PatchTransformer, SpectralResNet1D
 
 
-class VibraDiT(nn.Module):
+class VibraTrans(nn.Module):
     def __init__(self, length, width=384, depth=8, heads=6, patch_size=20):
         super().__init__()
-        self.velocity_field = VibraDiTVelocityFieldNetwork(
+        self.velocity_field = VibraTransVelocityFieldNetwork(
             in_channels=1,
             num_modes=3,
             image_size=(1, length),
@@ -35,7 +35,7 @@ def build_model(task, length):
     expected = task.get("data_contract", {}).get("length")
     if expected is not None and length != expected:
         raise ValueError(f"Expected {expected} spectral bins, received {length}.")
-    constructors = {"vibradit": VibraDiT, "pe": PatchTransformer, "cnn": SpectralResNet1D}
+    constructors = {"vibradit": VibraTrans, "pe": PatchTransformer, "cnn": SpectralResNet1D}
     if cfg["architecture"] not in constructors:
         raise ValueError(f"Unknown architecture: {cfg['architecture']}")
     dims = dict(width=384, depth=8, heads=6, patch_size=task.get("patch_size", 20))
@@ -68,5 +68,5 @@ def feature_module(model, architecture):
     if architecture == "pe":
         return model.encoder
     raise ValueError(
-        "The paper's frozen-token feature export supports VibraDiT and PE Transformer."
+        "The paper's frozen-token feature export supports VibraTrans and PE Transformer."
     )

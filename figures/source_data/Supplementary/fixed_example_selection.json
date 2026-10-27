@@ -1,0 +1,138 @@
+[
+  {
+    "figure": "FigureS4",
+    "panel": "a",
+    "dataset": "qme14s",
+    "source": "ir",
+    "row": 93343,
+    "seed": 0,
+    "rank_quantile": 0.5,
+    "identity": "OCC1=CC2CC1C2",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  },
+  {
+    "figure": "FigureS4",
+    "panel": "b",
+    "dataset": "qme14s",
+    "source": "ir",
+    "row": 166060,
+    "seed": 0,
+    "rank_quantile": 0.9,
+    "identity": "CCC1CC1C(=O)C=O",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  },
+  {
+    "figure": "FigureS4",
+    "panel": "c",
+    "dataset": "qme14s",
+    "source": "raman",
+    "row": 121530,
+    "seed": 0,
+    "rank_quantile": 0.5,
+    "identity": "CC1OC(C=O)OC1=O",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  },
+  {
+    "figure": "FigureS4",
+    "panel": "d",
+    "dataset": "qme14s",
+    "source": "raman",
+    "row": 109992,
+    "seed": 0,
+    "rank_quantile": 0.9,
+    "identity": "C#CC[Si]CC#C",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  },
+  {
+    "figure": "FigureS4",
+    "panel": "e",
+    "dataset": "vibench_full",
+    "source": "ir",
+    "row": 39188,
+    "seed": 0,
+    "rank_quantile": 0.5,
+    "identity": "N=COC1(C=O)COC1",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  },
+  {
+    "figure": "FigureS4",
+    "panel": "f",
+    "dataset": "vibench_full",
+    "source": "ir",
+    "row": 46825,
+    "seed": 0,
+    "rank_quantile": 0.9,
+    "identity": "C[C@H](NC(=O)[C@@H](N)Cc1c[nH]cn1)C(=O)N1CCC[C@H]1C(=O)O",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  },
+  {
+    "figure": "FigureS4",
+    "panel": "g",
+    "dataset": "vibench_full",
+    "source": "raman",
+    "row": 13372,
+    "seed": 0,
+    "rank_quantile": 0.5,
+    "identity": "C#CCC(O)C(C)CC",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  },
+  {
+    "figure": "FigureS4",
+    "panel": "h",
+    "dataset": "vibench_full",
+    "source": "raman",
+    "row": 36394,
+    "seed": 0,
+    "rank_quantile": 0.9,
+    "identity": "CCOC(=O)[C@H]1CN(C)CCN1C",
+    "selection": "Quantile of mean MAE percentile rank across Flow, VAE, Transformer; sort rank then row; round(q*(n-1)).",
+    "current_models": [
+      "vibradit",
+      "pe",
+      "cnn"
+    ],
+    "targets_verified_against_current_arrays": true
+  }
+]
