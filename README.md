@@ -69,6 +69,29 @@ independently min–max normalized. No molecular structure or target spectrum is
 needed for `predict`. Training settings, baseline definitions and validation
 selection are in [reproduction.md](docs/reproduction.md).
 
+## Paper figures
+
+Previews below link to the full-resolution vector PDFs in
+[figures/](figures/); SHA256 checksums are listed in
+[figures/manifest.json](figures/manifest.json). These are the five main
+figures of the manuscript. Supplementary figures and tables are provided with
+the manuscript rather than in this repository.
+
+[![Figure 1](figures/Figure1.png)](figures/Figure1.pdf)
+*Figure 1. VibraTrans overview: one-step source-conditioned IR–Raman translation and frozen-feature descriptor prediction.*
+
+[![Figure 2](figures/Figure2.png)](figures/Figure2.pdf)
+*Figure 2. Prediction accuracy across spectral regions (peak-region versus full-spectrum R²) and QM9S scaffold strata, with six fixed full-range examples.*
+
+[![Figure 3](figures/Figure3.png)](figures/Figure3.pdf)
+*Figure 3. Functional-group mean spectra and whole-spectrum peak F1, matched-ketone carbonyl frequency shifts, and peak recovery grouped by source support.*
+
+[![Figure 4](figures/Figure4.png)](figures/Figure4.pdf)
+*Figure 4. Error decomposition by functional group, ring class, diagnostic-window location and reference-peak height, with the scaffold-holdout comparison.*
+
+[![Figure 5](figures/Figure5.png)](figures/Figure5.pdf)
+*Figure 5. Frozen final-block features: t-SNE organization, ten-descriptor ridge-probe R² across six representations, and logP/TPSA predictions.*
+
 ## Results and source data
 
 - [All 120 primary per-seed results](results/benchmark.csv) and [checkpoint metadata](results/checkpoints.json).
